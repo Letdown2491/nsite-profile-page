@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geektoshi - Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .banner {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .profile-section {
+            background-color: #000;
+            padding: 0 20px 0px;
+            position: relative;
+            border-bottom: 1px solid #333;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid #000;
+            position: absolute;
+            bottom: -50px;
+            left: 20px;
+            z-index: 999;
+        }
+
+        .profile-header {
+            padding-top: 60px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .profile-info {
+            width: 100%;
+        }
+
+        .profile-name {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+
+        .profile-name h1 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .badge {
+            background: rgba(225, 10, 10, 1.0);
+            color: #fff;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .badge-year {
+            border: 1px solid rgba(155, 55, 55, 1.0);
+            padding: 1px 6px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        .profile-npub {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .profile-bio {
+            font-size: 15px;
+        }
+
+        .npub-link {
+            color: #7f8c8d;
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+
+        .npub-link:hover {
+            text-decoration: underline;
+        }
+        
+        .profile-link {
+            color: #ff0080;
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+
+        .profile-link:hover {
+            text-decoration: underline;
+        }
+
+        .profile-meta {
+            position: absolute;
+            top: 60px;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 5px;
+            font-size: 14px;
+            color: #999;
+            text-align: right;
+        }
+
+        .profile-following {
+            display: flex;
+            gap: 10px;
+        }
+
+        .profile-following span {
+            cursor: pointer;
+        }
+
+        .profile-following span:hover {
+            text-decoration: underline;
+        }
+
+        .profile-following .count {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .profile-joined {
+            color: #999;
+        }
+
+        .profile-actions {
+            position: absolute;
+            bottom: -50px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+            z-index: 10;
+        }
+
+        .profile-action-btn {
+            background-color: rgba(30, 39, 46,1.0);
+            border: ;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .profile-action-btn:hover {
+            background-color: rgba(30, 39, 46,0.75);
+        }
+
+        .profile-action-btn.edit-btn {
+            width: auto;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .posts-section {
+            padding: 5px 20px 20px;
+        }
+
+        .post {
+            background-color: #000;
+            border-bottom: 1px solid #333;
+            padding: 10px 0;
+            display: flex;
+            gap: 12px;
+        }
+
+        .post-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .post-content {
+            flex: 1;
+        }
+
+        .post-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .post-author {
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .post-npub {
+            color: #999;
+            font-size: 14px;
+        }
+
+        .post-time {
+            color: #999;
+            font-size: 14px;
+        }
+
+        .post-text {
+            font-size: 15px;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .post-link {
+            color: #ff0080;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .post-link:hover {
+            text-decoration: underline;
+        }
+
+        .post-meta {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+            flex-wrap: wrap;
+        }
+
+        .post-tag {
+            background-color: #1a1a1a;
+            color: #888;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+
+        .post-actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+            color: #999;
+            font-size: 14px;
+        }
+
+        .post-action {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+
+        .post-action:hover {
+            color: #fff;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            .stats {
+                gap: 15px;
+            }
+
+            .stat-value {
+                font-size: 18px;
+            }
+
+            .stat-label {
+                font-size: 11px;
+            }
+
+            .profile-meta {
+                display: none;
+            }
+
+            .post {
+                flex-wrap: wrap;
+            }
+
+            .post-avatar {
+                width: 32px;
+                height: 32px;
+            }
+
+            .post-content {
+                flex: 0 0 calc(100% - 44px);
+            }
+
+            .post-text,
+            .post-actions {
+                margin-left: calc(-44px);
+                padding-left: 0;
+                width: calc(100% + 44px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="banner" style="background-image: url('https://r2.primal.net/cache/0/57/40/05740b59efcc0f0a5ebff107fdc7393ec470ee82021309307f801b2117e70c34.jpg');">
+            <img src="https://r2.primal.net/cache/4/db/b1/4dbb1d7b05442bf54453dc54316383e152cfa5ddb8ff509c747451b639a9fd70.webp" alt="Profile" class="profile-pic">
+            <div class="profile-actions">
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" title="More options" style="font-size: 10px;">•••</a>
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" title="QR Code" style="font-size: 20px;">⊡</a>
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" title="Message" style="font-size: 24px;">✉</a>
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn edit-btn" target="_blank" title="Follow geek@getalby.com">Follow</a>
+            </div>
+        </div>
+
+        <div class="profile-section">
+            <div class="profile-header">
+                <div class="profile-info">
+                    <div class="profile-name">
+                        <h1>Geektoshi</h1>
+                        <span class="badge">Nostrich <span class="badge-year">2024</span></span>
+                    </div>
+                    <div class="profile-npub"><a href="https://getalby.com/p/geek" class="npub-link" target="_blank" title="geek@pgetalby.com">geek@getalby.com</a></div>
+                    <div class="profile-bio">If you don't believe it or don't get it, I don't have the time to try to convince you, sorry. -Satoshi Nakamoto</div>
+                    <a href="https://bloomapp.me/" class="profile-link" target="_blank">https://bloomapp.me/</a>
+                </div>
+
+                <div class="profile-meta">
+                    <div class="profile-following">
+                        <span><span class="count" id="repos-count">0</span> repos</span>
+                    </div>
+                    <div class="profile-joined">Joined Nostr on Mar 7, 2024</div>
+                </div>
+            </div>
+        </div>
+        <div class="posts-section">
+            <div id="repos-container">
+                <div class="loading">Loading repositories...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function loadRepos() {
+            try {
+                // Try to load from static JSON first (generated by GitHub Actions)
+                // This works from anywhere: GitHub Pages, your own server, etc.
+                let response;
+                let repos;
+
+                let totalRepos = 0;
+
+                try {
+                    // Update this URL to match your GitHub repo structure
+                    // Format: https://raw.githubusercontent.com/{username}/{repo}/{branch}/repos.json
+                    response = await fetch('https://raw.githubusercontent.com/letdown2491/npub/main/repos.json');
+                    if (response.ok) {
+                        let allRepos = await response.json();
+                        // Total count includes all repos (including forks)
+                        totalRepos = allRepos.length;
+                        // But only display non-forked repos
+                        repos = allRepos.filter(repo => !repo.fork).slice(0, 5);
+                    } else {
+                        throw new Error('JSON not found, falling back to API');
+                    }
+                } catch (jsonError) {
+                    // Fallback to direct API call if JSON doesn't exist yet
+                    console.log('Loading from GitHub API (JSON not found)');
+
+                    // Get all repos
+                    response = await fetch('https://api.github.com/users/letdown2491/repos?sort=updated&per_page=100');
+                    let allRepos = await response.json();
+
+                    // Total count includes all repos (including forks)
+                    totalRepos = allRepos.length;
+
+                    // But only display non-forked repos (first 5)
+                    repos = allRepos.filter(repo => !repo.fork).slice(0, 5);
+                }
+
+                // Update repos count in profile (shows all repos including forks)
+                document.getElementById('repos-count').textContent = totalRepos;
+
+                const container = document.getElementById('repos-container');
+                container.innerHTML = '';
+
+                repos.forEach(repo => {
+                    const post = document.createElement('div');
+                    post.className = 'post';
+
+                    const updatedDate = new Date(repo.updated_at);
+                    const isMobile = window.innerWidth <= 768;
+                    const timeAgo = isMobile ? getTimeAgoShort(updatedDate) : getTimeAgo(updatedDate);
+
+                    const description = repo.description || 'No description provided';
+                    const language = repo.language || 'Unknown';
+                    const stars = repo.stargazers_count || 0;
+                    const forks = repo.forks_count || 0;
+                    const openIssues = repo.open_issues_count || 0;
+                    const watchers = repo.watchers_count || 0;
+
+                    post.innerHTML = `
+                        <img src="https://r2.primal.net/cache/4/db/b1/4dbb1d7b05442bf54453dc54316383e152cfa5ddb8ff509c747451b639a9fd70.webp" alt="Profile" class="post-avatar">
+                        <div class="post-content">
+                            <div class="post-header">
+                                <span class="post-author">Geektoshi</span>
+                                <span class="post-npub">geek@getalby.com</span>
+                                <span class="post-time">• ${timeAgo}</span>
+                            </div>
+                            <div class="post-text">
+                                <strong>${repo.name}</strong> -
+                                ${description}<br>
+                                <a href="${repo.html_url}" class="post-link" target="_blank">${repo.html_url}</a>
+                            </div>
+                            <div class="post-actions">
+                                <a href="${repo.html_url}/issues" class="post-action" target="_blank" style="text-decoration: none; color: inherit;">💬 ${openIssues}</a>
+                                <a href="${repo.html_url}/stargazers" class="post-action" target="_blank" style="text-decoration: none; color: inherit;">★ ${stars}</a>
+                                <a href="${repo.html_url}/watchers" class="post-action" target="_blank" style="text-decoration: none; color: inherit;">♥ ${watchers}</a>
+                                <a href="${repo.html_url}" class="post-action" target="_blank" style="text-decoration: none; color: inherit;">■</a>
+                            </div>
+                        </div>
+                    `;
+
+                    container.appendChild(post);
+                });
+            } catch (error) {
+                document.getElementById('repos-container').innerHTML = '<div class="loading">Error loading repositories</div>';
+                console.error('Error loading repos:', error);
+            }
+        }
+
+        function getTimeAgo(date) {
+            const seconds = Math.floor((new Date() - date) / 1000);
+
+            const intervals = {
+                year: 31536000,
+                month: 2592000,
+                week: 604800,
+                day: 86400,
+                hour: 3600,
+                minute: 60
+            };
+
+            for (const [unit, secondsInUnit] of Object.entries(intervals)) {
+                const interval = Math.floor(seconds / secondsInUnit);
+                if (interval >= 1) {
+                    return `${interval} ${unit}${interval !== 1 ? 's' : ''} ago`;
+                }
+            }
+
+            return 'just now';
+        }
+
+        function getTimeAgoShort(date) {
+            const seconds = Math.floor((new Date() - date) / 1000);
+
+            const intervals = {
+                year: { seconds: 31536000, short: 'yr' },
+                month: { seconds: 2592000, short: 'mo' },
+                week: { seconds: 604800, short: 'w' },
+                day: { seconds: 86400, short: 'd' },
+                hour: { seconds: 3600, short: 'hr' },
+                minute: { seconds: 60, short: 'm' }
+            };
+
+            for (const [unit, data] of Object.entries(intervals)) {
+                const interval = Math.floor(seconds / data.seconds);
+                if (interval >= 1) {
+                    return `${interval} ${data.short}`;
+                }
+            }
+
+            return 'now';
+        }
+
+        loadRepos();
+    </script>
+</body>
+</html>
