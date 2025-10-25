@@ -387,7 +387,7 @@
                 try {
                     // Update this URL to match your GitHub repo structure
                     // Format: https://raw.githubusercontent.com/{username}/{repo}/{branch}/repos.json
-                    response = await fetch('https://raw.githubusercontent.com/letdown2491/npub/main/repos.json');
+                    response = await fetch('https://raw.githubusercontent.com/Letdown2491/nsite-profile-page/main/repos.json');
                     if (response.ok) {
                         let allRepos = await response.json();
                         // Total count includes all repos (including forks)
@@ -402,7 +402,7 @@
                     console.log('Loading from GitHub API (JSON not found)');
 
                     // Get all repos
-                    response = await fetch('https://api.github.com/users/letdown2491/repos?sort=updated&per_page=100');
+                    response = await fetch('https://api.github.com/users/letdown2491/repos?sort=updated&per_page=50');
                     let allRepos = await response.json();
 
                     // Total count includes all repos (including forks)
