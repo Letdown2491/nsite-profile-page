@@ -12,8 +12,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-06-15T04:19:12Z",
-    "pushed_at": "2026-06-15T04:19:10Z",
+    "updated_at": "2026-06-15T04:25:34Z",
+    "pushed_at": "2026-06-15T04:25:32Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -533,7 +533,7 @@
     "languages": [
       "Kotlin"
     ],
-    "screenshot": "https://github.com/PrimalHQ/primal-android-app/blob/main/docs/screenshots/feeds.png",
+    "screenshot": "https://raw.githubusercontent.com/PrimalHQ/primal-android-app/main/docs/screenshots/feeds.png",
     "stargazers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
