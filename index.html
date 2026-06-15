@@ -421,8 +421,8 @@
                         let allRepos = await response.json();
                         // Total count includes all repos (including forks)
                         totalRepos = allRepos.length;
-                        // Display all non-archived repos (sorted below)
-                        repos = allRepos.filter(repo => !repo.archived);
+                        // Display all non-archived, non-forked repos (sorted below)
+                        repos = allRepos.filter(repo => !repo.archived && !repo.fork);
                     } else {
                         throw new Error('JSON not found, falling back to API');
                     }
@@ -437,8 +437,8 @@
                     // Total count includes all repos (including forks)
                     totalRepos = allRepos.length;
 
-                    // But only display non-forked repos
-                    repos = allRepos.filter(repo => !repo.fork);
+                    // Display all non-archived, non-forked repos
+                    repos = allRepos.filter(repo => !repo.archived && !repo.fork);
                 }
 
                 // Update repos count in profile (shows all repos including forks)
