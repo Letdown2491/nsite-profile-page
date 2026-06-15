@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Fetch GitHub repos data
         env:
@@ -67,13 +67,21 @@ jobs:
                   return True
               return False
 
+          def to_raw(u):
+              # github.com/{o}/{r}/blob/{path} points at an HTML page, not the
+              # image itself; rewrite to the raw host so it loads as an <img>.
+              m = re.match(r'https?://github\.com/([^/]+)/([^/]+)/blob/(.+)', u)
+              if m:
+                  return 'https://raw.githubusercontent.com/%s/%s/%s' % m.groups()
+              return u
+
           for _, url in candidates:
               if not looks_like_screenshot(url):
                   continue
               if not url.startswith(('http://', 'https://')):
                   url = 'https://raw.githubusercontent.com/%s/%s/%s/%s' % (
                       owner, repo, default_branch, url.lstrip('./'))
-              print(url)
+              print(to_raw(url))
               break
           PY
 
