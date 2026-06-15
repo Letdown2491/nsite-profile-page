@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geektoshi - Profile</title>
+    <link rel="icon" type="image/webp" href="https://r2.primal.net/cache/4/db/b1/4dbb1d7b05442bf54453dc54316383e152cfa5ddb8ff509c747451b639a9fd70.webp">
+    <link rel="apple-touch-icon" href="https://r2.primal.net/cache/4/db/b1/4dbb1d7b05442bf54453dc54316383e152cfa5ddb8ff509c747451b639a9fd70.webp">
+    <meta name="description" content="If you don't believe it or don't get it, I don't have the time to try to convince you, sorry. -Satoshi Nakamoto">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Geektoshi">
+    <meta property="og:description" content="If you don't believe it or don't get it, I don't have the time to try to convince you, sorry. -Satoshi Nakamoto">
+    <meta property="og:url" content="https://hello.geektoshi.tech/">
+    <meta property="og:image" content="https://r2.primal.net/cache/0/57/40/05740b59efcc0f0a5ebff107fdc7393ec470ee82021309307f801b2117e70c34.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Geektoshi">
+    <meta name="twitter:description" content="If you don't believe it or don't get it, I don't have the time to try to convince you, sorry. -Satoshi Nakamoto">
+    <meta name="twitter:image" content="https://r2.primal.net/cache/0/57/40/05740b59efcc0f0a5ebff107fdc7393ec470ee82021309307f801b2117e70c34.jpg">
     <style>
         * {
             margin: 0;
@@ -170,7 +186,7 @@
 
         .profile-action-btn {
             background-color: rgba(30, 39, 46,1.0);
-            border: ;
+            border: none;
             color: #fff;
             width: 40px;
             height: 40px;
@@ -256,6 +272,16 @@
             text-decoration: underline;
         }
 
+        .post-image {
+            display: block;
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 16px;
+            border: 1px solid #333;
+            margin-bottom: 12px;
+        }
+
         .post-meta {
             display: flex;
             gap: 8px;
@@ -297,18 +323,6 @@
         }
 
         @media (max-width: 768px) {
-            .stats {
-                gap: 15px;
-            }
-
-            .stat-value {
-                font-size: 18px;
-            }
-
-            .stat-label {
-                font-size: 11px;
-            }
-
             .profile-meta {
                 display: none;
             }
@@ -340,10 +354,10 @@
         <div class="banner" style="background-image: url('https://r2.primal.net/cache/0/57/40/05740b59efcc0f0a5ebff107fdc7393ec470ee82021309307f801b2117e70c34.jpg');">
             <img src="https://r2.primal.net/cache/4/db/b1/4dbb1d7b05442bf54453dc54316383e152cfa5ddb8ff509c747451b639a9fd70.webp" alt="Profile" class="profile-pic">
             <div class="profile-actions">
-                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" title="More options" style="font-size: 10px;">•••</a>
-                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" title="QR Code" style="font-size: 20px;">⊡</a>
-                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" title="Message" style="font-size: 24px;">✉</a>
-                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn edit-btn" target="_blank" title="Follow geek@getalby.com">Follow</a>
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" rel="noopener noreferrer" title="More options" style="font-size: 10px;">•••</a>
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" rel="noopener noreferrer" title="QR Code" style="font-size: 20px;">⊡</a>
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" rel="noopener noreferrer" title="Message" style="font-size: 24px;">✉</a>
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn edit-btn" target="_blank" rel="noopener noreferrer" title="Follow geek@getalby.com">Follow</a>
             </div>
         </div>
 
@@ -354,9 +368,9 @@
                         <h1>Geektoshi</h1>
                         <span class="badge">Nostrich <span class="badge-year">2024</span></span>
                     </div>
-                    <div class="profile-npub"><a href="https://getalby.com/p/geek" class="npub-link" target="_blank" title="geek@pgetalby.com">geek@getalby.com</a></div>
+                    <div class="profile-npub"><a href="https://getalby.com/p/geek" class="npub-link" target="_blank" rel="noopener noreferrer" title="geek@pgetalby.com">geek@getalby.com</a></div>
                     <div class="profile-bio">If you don't believe it or don't get it, I don't have the time to try to convince you, sorry. -Satoshi Nakamoto</div>
-                    <a href="https://bloomapp.me/" class="profile-link" target="_blank">https://bloomapp.me/</a>
+                    <a href="https://trustedrelays.xyz" class="profile-link" target="_blank" rel="noopener noreferrer">https://trustedrelays.xyz</a>
                 </div>
 
                 <div class="profile-meta">
@@ -371,10 +385,25 @@
             <div id="repos-container">
                 <div class="loading">Loading repositories...</div>
             </div>
+            <div id="scroll-sentinel" aria-hidden="true"></div>
         </div>
     </div>
 
     <script>
+        // Number of repos appended per batch as you scroll
+        const PAGE_SIZE = 8;
+
+        // Load the next batch a bit before the sentinel reaches the viewport edge
+        const SCROLL_MARGIN = 300;
+
+        // Maximum number of language tags to show per repository
+        const MAX_LANGUAGES = 5;
+
+        // Full, sorted list of repos to display + how many are currently rendered
+        let visibleRepos = [];
+        let renderedCount = 0;
+        let scrollObserver = null;
+
         async function loadRepos() {
             try {
                 // Try to load from static JSON first (generated by GitHub Actions)
@@ -392,8 +421,8 @@
                         let allRepos = await response.json();
                         // Total count includes all repos (including forks)
                         totalRepos = allRepos.length;
-                        // But only display non-forked repos
-                        repos = allRepos.filter(repo => !repo.fork).slice(0, 5);
+                        // Display all non-archived repos (sorted below)
+                        repos = allRepos.filter(repo => !repo.archived);
                     } else {
                         throw new Error('JSON not found, falling back to API');
                     }
@@ -402,65 +431,137 @@
                     console.log('Loading from GitHub API (JSON not found)');
 
                     // Get all repos
-                    response = await fetch('https://api.github.com/users/letdown2491/repos?sort=updated&per_page=50');
+                    response = await fetch('https://api.github.com/users/letdown2491/repos?sort=updated&per_page=100');
                     let allRepos = await response.json();
 
                     // Total count includes all repos (including forks)
                     totalRepos = allRepos.length;
 
-                    // But only display non-forked repos (first 5)
-                    repos = allRepos.filter(repo => !repo.fork).slice(0, 5);
+                    // But only display non-forked repos
+                    repos = allRepos.filter(repo => !repo.fork);
                 }
 
                 // Update repos count in profile (shows all repos including forks)
                 document.getElementById('repos-count').textContent = totalRepos;
 
+                // Show most recently updated first
+                repos.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+
+                visibleRepos = repos;
+                renderedCount = 0;
+
                 const container = document.getElementById('repos-container');
                 container.innerHTML = '';
 
-                repos.forEach(repo => {
-                    const post = document.createElement('div');
-                    post.className = 'post';
-
-                    const updatedDate = new Date(repo.updated_at);
-                    const isMobile = window.innerWidth <= 768;
-                    const timeAgo = isMobile ? getTimeAgoShort(updatedDate) : getTimeAgo(updatedDate);
-
-                    const description = repo.description || 'No description provided';
-                    const language = repo.language || 'Unknown';
-                    const stars = repo.stargazers_count || 0;
-                    const forks = repo.forks_count || 0;
-                    const openIssues = repo.open_issues_count || 0;
-                    const watchers = repo.watchers_count || 0;
-
-                    post.innerHTML = `
-                        <img src="https://r2.primal.net/cache/4/db/b1/4dbb1d7b05442bf54453dc54316383e152cfa5ddb8ff509c747451b639a9fd70.webp" alt="Profile" class="post-avatar">
-                        <div class="post-content">
-                            <div class="post-header">
-                                <span class="post-author">Geektoshi</span>
-                                <span class="post-npub">geek@getalby.com</span>
-                                <span class="post-time">• ${timeAgo}</span>
-                            </div>
-                            <div class="post-text">
-                                <strong>${repo.name}</strong> -
-                                ${description}<br>
-                                <a href="${repo.html_url}" class="post-link" target="_blank">${repo.html_url}</a>
-                            </div>
-                            <div class="post-actions">
-                                <a href="${repo.html_url}/issues" class="post-action" target="_blank" style="text-decoration: none; color: inherit;">💬 ${openIssues}</a>
-                                <a href="${repo.html_url}/stargazers" class="post-action" target="_blank" style="text-decoration: none; color: inherit;">★ ${stars}</a>
-                                <a href="${repo.html_url}/watchers" class="post-action" target="_blank" style="text-decoration: none; color: inherit;">♥ ${watchers}</a>
-                                <a href="${repo.html_url}" class="post-action" target="_blank" style="text-decoration: none; color: inherit;">■</a>
-                            </div>
-                        </div>
-                    `;
-
-                    container.appendChild(post);
-                });
+                // Render enough to fill the viewport, then keep loading on scroll
+                fillViewport();
+                setupInfiniteScroll();
             } catch (error) {
                 document.getElementById('repos-container').innerHTML = '<div class="loading">Error loading repositories</div>';
                 console.error('Error loading repos:', error);
             }
+        }
+
+        function renderNextPage() {
+            const container = document.getElementById('repos-container');
+            const fragment = document.createDocumentFragment();
+            const next = visibleRepos.slice(renderedCount, renderedCount + PAGE_SIZE);
+            next.forEach(repo => fragment.appendChild(createPostElement(repo)));
+            container.appendChild(fragment);
+            renderedCount += next.length;
+        }
+
+        // Keep appending batches until the sentinel is pushed below the viewport
+        // (this fills the initial screen) or every repo has been rendered.
+        function fillViewport() {
+            const sentinel = document.getElementById('scroll-sentinel');
+            while (renderedCount < visibleRepos.length &&
+                   sentinel.getBoundingClientRect().top <= window.innerHeight + SCROLL_MARGIN) {
+                renderNextPage();
+            }
+            if (renderedCount >= visibleRepos.length && scrollObserver) {
+                scrollObserver.disconnect();
+                scrollObserver = null;
+                sentinel.remove();
+            }
+        }
+
+        function setupInfiniteScroll() {
+            const sentinel = document.getElementById('scroll-sentinel');
+            if (renderedCount >= visibleRepos.length) {
+                sentinel.remove();
+                return;
+            }
+            scrollObserver = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    fillViewport();
+                }
+            }, { rootMargin: `${SCROLL_MARGIN}px` });
+            scrollObserver.observe(sentinel);
+        }
+
+        function createPostElement(repo) {
+            const post = document.createElement('div');
+            post.className = 'post';
+
+            const updatedDate = new Date(repo.updated_at);
+            const isMobile = window.innerWidth <= 768;
+            const timeAgo = isMobile ? getTimeAgoShort(updatedDate) : getTimeAgo(updatedDate);
+
+            const name = escapeHtml(repo.name);
+            const description = escapeHtml(repo.description || 'No description provided');
+            // Prefer the full languages array (from repos.json); fall back to
+            // GitHub's single primary language (live-API path).
+            const languageList = (Array.isArray(repo.languages) && repo.languages.length)
+                ? repo.languages
+                : (repo.language ? [repo.language] : []);
+            const languageTags = languageList
+                .slice(0, MAX_LANGUAGES)
+                .map(l => `<span class="post-tag">${escapeHtml(l)}</span>`)
+                .join('');
+            const url = escapeHtml(repo.html_url);
+            const stars = repo.stargazers_count || 0;
+            const openIssues = repo.open_issues_count || 0;
+            const watchers = repo.watchers_count || 0;
+            // Optional README screenshot (from repos.json). If the URL 404s,
+            // onerror removes the wrapping link so no broken image is shown.
+            const screenshot = repo.screenshot
+                ? `<a href="${url}" target="_blank" rel="noopener noreferrer"><img src="${escapeHtml(repo.screenshot)}" alt="${name} screenshot" class="post-image" loading="lazy" onerror="this.parentElement.remove()"></a>`
+                : '';
+
+            post.innerHTML = `
+                <img src="https://r2.primal.net/cache/4/db/b1/4dbb1d7b05442bf54453dc54316383e152cfa5ddb8ff509c747451b639a9fd70.webp" alt="Profile" class="post-avatar">
+                <div class="post-content">
+                    <div class="post-header">
+                        <span class="post-author">Geektoshi</span>
+                        <span class="post-npub">geek@getalby.com</span>
+                        <span class="post-time">• ${timeAgo}</span>
+                    </div>
+                    <div class="post-text">
+                        <strong>${name}</strong> -
+                        ${description}
+                    </div>
+                    ${screenshot}
+                    <div class="post-text">
+                        <a href="${url}" class="post-link" target="_blank" rel="noopener noreferrer">${url}</a>
+                    </div>
+                    ${languageTags ? `<div class="post-meta">${languageTags}</div>` : ''}
+                    <div class="post-actions">
+                        <a href="${url}/issues" class="post-action" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">💬 ${openIssues}</a>
+                        <a href="${url}/stargazers" class="post-action" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">★ ${stars}</a>
+                        <a href="${url}/watchers" class="post-action" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">♥ ${watchers}</a>
+                        <a href="${url}" class="post-action" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">■</a>
+                    </div>
+                </div>
+            `;
+
+            return post;
+        }
+
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
         }
 
         function getTimeAgo(date) {

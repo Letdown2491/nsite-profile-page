@@ -24,15 +24,90 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Fetch GitHub repos data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          set -euo pipefail
+
+          # Fetch the repo list (quote the URL so & / ? aren't parsed by the shell)
+          curl -fsS -H "Authorization: token ${GH_TOKEN}" \
                -H "Accept: application/vnd.github.v3+json" \
-               https://api.github.com/users/letdown2491/repos?per_page=50&sort=updated \
-               | jq '[.[] | {
+               "https://api.github.com/users/letdown2491/repos?per_page=100&sort=updated" \
+               > repos_raw.json
+
+          # Helper: extract the first "screenshot-like" image from a README.
+          # Skips badges/shields and SVG logos; resolves relative paths to raw URLs.
+          cat > extract_screenshot.py <<'PY'
+          import re, sys
+
+          owner, repo, default_branch = sys.argv[1], sys.argv[2], sys.argv[3]
+          text = sys.stdin.read()
+
+          BADGE_HINTS = ('shields.io', 'badge', 'badgen', 'travis', 'circleci',
+                         'codecov', 'coveralls', 'forthebadge', 'gitpod',
+                         'app.netlify.com', 'vercel.app/button')
+          RASTER = ('.png', '.jpg', '.jpeg', '.gif', '.webp')
+
+          candidates = []
+          for m in re.finditer(r'!\[[^\]]*\]\(\s*<?([^)\s>]+)', text):
+              candidates.append((m.start(), m.group(1)))
+          for m in re.finditer(r'<img[^>]+src=["\']([^"\']+)', text, re.IGNORECASE):
+              candidates.append((m.start(), m.group(1)))
+          candidates.sort(key=lambda c: c[0])
+
+          def looks_like_screenshot(u):
+              lu = u.lower().split('?')[0]
+              if any(h in u.lower() for h in BADGE_HINTS):
+                  return False
+              # Accept known raster extensions; reject .svg (usually logos/badges).
+              # User-content hosts often omit extensions, so allow those too.
+              if lu.endswith(RASTER):
+                  return True
+              if 'githubusercontent.com' in lu and not lu.endswith('.svg'):
+                  return True
+              return False
+
+          for _, url in candidates:
+              if not looks_like_screenshot(url):
+                  continue
+              if not url.startswith(('http://', 'https://')):
+                  url = 'https://raw.githubusercontent.com/%s/%s/%s/%s' % (
+                      owner, repo, default_branch, url.lstrip('./'))
+              print(url)
+              break
+          PY
+
+          # For each repo, fetch its language breakdown and first README screenshot.
+          echo '{}' > languages.json
+          echo '{}' > screenshots.json
+          for name in $(jq -r '.[].name' repos_raw.json); do
+            langs=$(curl -fsS -H "Authorization: token ${GH_TOKEN}" \
+                         -H "Accept: application/vnd.github.v3+json" \
+                         "https://api.github.com/repos/letdown2491/${name}/languages" \
+                    | jq '[to_entries | sort_by(-.value) | .[].key]')
+            jq --arg name "$name" --argjson langs "$langs" \
+               '. + {($name): $langs}' languages.json > languages.tmp.json
+            mv languages.tmp.json languages.json
+
+            branch=$(jq -r --arg name "$name" '.[] | select(.name == $name) | .default_branch' repos_raw.json)
+            readme=$(curl -fsS -H "Authorization: token ${GH_TOKEN}" \
+                          -H "Accept: application/vnd.github.raw" \
+                          "https://api.github.com/repos/letdown2491/${name}/readme" 2>/dev/null || true)
+            shot=$(printf '%s' "$readme" | python3 extract_screenshot.py "letdown2491" "$name" "${branch:-HEAD}")
+            jq --arg name "$name" --arg shot "$shot" \
+               '. + {($name): (if $shot == "" then null else $shot end)}' \
+               screenshots.json > screenshots.tmp.json
+            mv screenshots.tmp.json screenshots.json
+          done
+
+          # Merge the language arrays and screenshot URLs into the trimmed objects.
+          jq --slurpfile langmap languages.json --slurpfile shotmap screenshots.json '[.[] | {
                    name: .name,
                    description: .description,
                    html_url: .html_url,
                    language: .language,
+                   languages: ($langmap[0][.name] // []),
+                   screenshot: ($shotmap[0][.name] // null),
                    stargazers_count: .stargazers_count,
                    forks_count: .forks_count,
                    open_issues_count: .open_issues_count,
@@ -45,7 +120,9 @@ jobs:
                    archived: .archived,
                    watchers_count: .watchers_count,
                    fork: .fork
-                 }]' > repos.json
+                 }]' repos_raw.json > repos.json
+
+          rm -f repos_raw.json languages.json screenshots.json extract_screenshot.py
 
       - name: Check for changes
         id: git-check
