@@ -203,6 +203,12 @@
             background-color: rgba(30, 39, 46,0.75);
         }
 
+        .profile-action-btn svg {
+            width: 18px;
+            height: 18px;
+            display: block;
+        }
+
         .profile-action-btn.edit-btn {
             width: auto;
             padding: 8px 16px;
@@ -312,6 +318,19 @@
             cursor: pointer;
         }
 
+        /* Line icons sized to match the count beside them */
+        .post-action svg {
+            width: 16px;
+            height: 16px;
+            display: block;
+        }
+
+        /* The bookmark carries no number, so it can run a touch larger */
+        .post-action-bookmark svg {
+            width: 18px;
+            height: 18px;
+        }
+
         .post-action:hover {
             color: #fff;
         }
@@ -354,9 +373,9 @@
         <div class="banner" style="background-image: url('https://r2.primal.net/cache/0/57/40/05740b59efcc0f0a5ebff107fdc7393ec470ee82021309307f801b2117e70c34.jpg');">
             <img src="https://r2.primal.net/cache/4/db/b1/4dbb1d7b05442bf54453dc54316383e152cfa5ddb8ff509c747451b639a9fd70.webp" alt="Profile" class="profile-pic">
             <div class="profile-actions">
-                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" rel="noopener noreferrer" title="More options" style="font-size: 10px;">•••</a>
-                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" rel="noopener noreferrer" title="QR Code" style="font-size: 20px;">⊡</a>
-                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" rel="noopener noreferrer" title="Message" style="font-size: 24px;">✉</a>
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" rel="noopener noreferrer" title="More options"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg></a>
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" rel="noopener noreferrer" title="QR Code"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3"/><path d="M21 14v7"/><path d="M14 21h3"/></svg></a>
+                <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn" target="_blank" rel="noopener noreferrer" title="Message"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
                 <a href="https://nosta.me/daa41bedb68591363bf4407f687cb9789cc543ed024bb77c22d2c84d88f54153" class="profile-action-btn edit-btn" target="_blank" rel="noopener noreferrer" title="Follow geek@getalby.com">Follow</a>
             </div>
         </div>
@@ -539,18 +558,16 @@
                     </div>
                     <div class="post-text">
                         <strong>${name}</strong> -
-                        ${description}
-                    </div>
-                    ${screenshot}
-                    <div class="post-text">
+                        ${description}<br>
                         <a href="${url}" class="post-link" target="_blank" rel="noopener noreferrer">${url}</a>
                     </div>
+                    ${screenshot}
                     ${languageTags ? `<div class="post-meta">${languageTags}</div>` : ''}
                     <div class="post-actions">
-                        <a href="${url}/issues" class="post-action" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">💬 ${openIssues}</a>
-                        <a href="${url}/stargazers" class="post-action" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">★ ${stars}</a>
-                        <a href="${url}/watchers" class="post-action" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">♥ ${watchers}</a>
-                        <a href="${url}" class="post-action" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">■</a>
+                        <a href="${url}/issues" class="post-action" target="_blank" rel="noopener noreferrer" title="Issues" style="text-decoration: none; color: inherit;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> ${openIssues}</a>
+                        <a href="${url}/stargazers" class="post-action" target="_blank" rel="noopener noreferrer" title="Stars" style="text-decoration: none; color: inherit;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> ${stars}</a>
+                        <a href="${url}/watchers" class="post-action" target="_blank" rel="noopener noreferrer" title="Watchers" style="text-decoration: none; color: inherit;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg> ${watchers}</a>
+                        <a href="${url}" class="post-action post-action-bookmark" target="_blank" rel="noopener noreferrer" title="Open repository" style="text-decoration: none; color: inherit;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></a>
                     </div>
                 </div>
             `;
