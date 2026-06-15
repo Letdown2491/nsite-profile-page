@@ -127,7 +127,10 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git diff --exit-code repos.json || echo "changed=true" >> $GITHUB_OUTPUT
+          # Stage first so a brand-new (untracked) repos.json is detected too;
+          # plain `git diff` ignores untracked files.
+          git add repos.json
+          git diff --cached --quiet repos.json || echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Commit and push if changed
         if: steps.git-check.outputs.changed == 'true'
