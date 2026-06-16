@@ -1,5 +1,30 @@
 [
   {
+    "name": "dark-wisp-android",
+    "description": "Dark Wisp — Android Nostr client forked from Wisp v1.0.5",
+    "html_url": "https://github.com/Letdown2491/dark-wisp-android",
+    "language": "Kotlin",
+    "languages": [
+      "Kotlin",
+      "Java",
+      "JavaScript",
+      "Shell"
+    ],
+    "screenshot": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-06-16T03:48:58Z",
+    "pushed_at": "2026-06-16T03:48:54Z",
+    "created_at": "2026-06-12T02:57:58Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 0,
+    "fork": true
+  },
+  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -12,8 +37,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-06-15T20:26:00Z",
-    "pushed_at": "2026-06-15T20:25:56Z",
+    "updated_at": "2026-06-15T23:02:52Z",
+    "pushed_at": "2026-06-15T23:02:48Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -228,7 +253,7 @@
     "screenshot": null,
     "stargazers_count": 2,
     "forks_count": 0,
-    "open_issues_count": 0,
+    "open_issues_count": 1,
     "topics": [],
     "updated_at": "2026-06-14T16:18:57Z",
     "pushed_at": "2026-06-14T16:22:58Z",
@@ -238,31 +263,6 @@
     "archived": false,
     "watchers_count": 2,
     "fork": false
-  },
-  {
-    "name": "dark-wisp-android",
-    "description": "Dark Wisp — Android Nostr client forked from Wisp v1.0.5",
-    "html_url": "https://github.com/Letdown2491/dark-wisp-android",
-    "language": "Kotlin",
-    "languages": [
-      "Kotlin",
-      "Java",
-      "JavaScript",
-      "Shell"
-    ],
-    "screenshot": null,
-    "stargazers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-06-12T18:57:27Z",
-    "pushed_at": "2026-06-13T18:36:59Z",
-    "created_at": "2026-06-12T02:57:58Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 0,
-    "fork": true
   },
   {
     "name": "wisp",
