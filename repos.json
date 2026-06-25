@@ -1,5 +1,51 @@
 [
   {
+    "name": "nostrarchives-api",
+    "description": "Nostr Archival Node - ingestion and crawling engine, ranking algorithms, relay feed & rest api provider.",
+    "html_url": "https://github.com/Letdown2491/nostrarchives-api",
+    "language": null,
+    "languages": [
+      "Rust",
+      "PLpgSQL",
+      "Shell"
+    ],
+    "screenshot": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-06-25T01:55:26Z",
+    "pushed_at": "2026-04-06T09:40:44Z",
+    "created_at": "2026-06-25T01:55:26Z",
+    "homepage": "https://nostrarchives.com",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 0,
+    "fork": true
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-06-25T00:13:14Z",
+    "pushed_at": "2026-06-25T00:13:10Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "signet",
     "description": "Signet is a self-hosted NIP-46 compliant remote signer for Nostr. This project is an extensive rewrite of nsecbunkerd. Companion app for Android available.",
     "html_url": "https://github.com/Letdown2491/signet",
@@ -34,28 +80,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 25,
-    "fork": false
-  },
-  {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-06-24T22:17:33Z",
-    "pushed_at": "2026-06-24T22:17:28Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
     "fork": false
   },
   {
