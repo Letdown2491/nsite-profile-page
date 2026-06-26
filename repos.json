@@ -1,5 +1,38 @@
 [
   {
+    "name": "trustedrelays",
+    "description": "Reference implementation for Trusted Relay Assertions, trust scores for Nostr relays",
+    "html_url": "https://github.com/Letdown2491/trustedrelays",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "Dockerfile"
+    ],
+    "screenshot": null,
+    "stargazers_count": 6,
+    "forks_count": 1,
+    "open_issues_count": 0,
+    "topics": [
+      "monitoring-tool",
+      "nip-11",
+      "nip-66",
+      "nip-85",
+      "nostr",
+      "relays",
+      "weboftrust",
+      "wot"
+    ],
+    "updated_at": "2026-06-26T17:41:35Z",
+    "pushed_at": "2026-06-26T17:41:49Z",
+    "created_at": "2026-01-17T03:36:24Z",
+    "homepage": "https://trustedrelays.xyz",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 6,
+    "fork": false
+  },
+  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -12,8 +45,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-06-26T12:11:16Z",
-    "pushed_at": "2026-06-26T12:11:13Z",
+    "updated_at": "2026-06-26T15:24:01Z",
+    "pushed_at": "2026-06-26T15:23:57Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -530,39 +563,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 0,
-    "fork": false
-  },
-  {
-    "name": "trustedrelays",
-    "description": "Reference implementation for Trusted Relay Assertions, trust scores for Nostr relays",
-    "html_url": "https://github.com/Letdown2491/trustedrelays",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "Dockerfile"
-    ],
-    "screenshot": null,
-    "stargazers_count": 6,
-    "forks_count": 1,
-    "open_issues_count": 0,
-    "topics": [
-      "monitoring-tool",
-      "nip-11",
-      "nip-66",
-      "nip-85",
-      "nostr",
-      "relays",
-      "weboftrust",
-      "wot"
-    ],
-    "updated_at": "2026-06-08T00:17:12Z",
-    "pushed_at": "2026-06-08T00:17:22Z",
-    "created_at": "2026-01-17T03:36:24Z",
-    "homepage": "https://trustedrelays.xyz",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 6,
     "fork": false
   },
   {
