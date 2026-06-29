@@ -1,5 +1,101 @@
 [
   {
+    "name": "signet-startos",
+    "description": "Start9 package for Signet, a self-hosted Nostr bunker",
+    "html_url": "https://github.com/Letdown2491/signet-startos",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Makefile",
+      "Dockerfile",
+      "Shell",
+      "JavaScript"
+    ],
+    "screenshot": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-06-29T05:02:34Z",
+    "pushed_at": "2026-06-29T05:02:31Z",
+    "created_at": "2026-06-07T21:28:48Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 0,
+    "fork": false
+  },
+  {
+    "name": "signet",
+    "description": "Signet is a self-hosted NIP-46 compliant remote signer for Nostr. This project is an extensive rewrite of nsecbunkerd. Companion app for Android available.",
+    "html_url": "https://github.com/Letdown2491/signet",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Kotlin",
+      "CSS",
+      "JavaScript",
+      "Dockerfile",
+      "Shell",
+      "HTML",
+      "Just"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/signet/main/signet.png",
+    "stargazers_count": 25,
+    "forks_count": 8,
+    "open_issues_count": 2,
+    "topics": [
+      "bunker",
+      "nip46",
+      "nostr",
+      "nsec",
+      "oauth",
+      "remote-signer",
+      "signer"
+    ],
+    "updated_at": "2026-06-29T04:24:27Z",
+    "pushed_at": "2026-06-29T04:24:22Z",
+    "created_at": "2025-10-24T18:49:26Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 25,
+    "fork": false
+  },
+  {
+    "name": "trustedrelays",
+    "description": "Reference implementation for Trusted Relay Assertions, trust scores for Nostr relays",
+    "html_url": "https://github.com/Letdown2491/trustedrelays",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "Dockerfile"
+    ],
+    "screenshot": null,
+    "stargazers_count": 6,
+    "forks_count": 1,
+    "open_issues_count": 0,
+    "topics": [
+      "monitoring-tool",
+      "nip-11",
+      "nip-66",
+      "nip-85",
+      "nostr",
+      "relays",
+      "weboftrust",
+      "wot"
+    ],
+    "updated_at": "2026-06-29T03:53:34Z",
+    "pushed_at": "2026-06-29T03:53:31Z",
+    "created_at": "2026-01-17T03:36:24Z",
+    "homepage": "https://trustedrelays.xyz",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 6,
+    "fork": false
+  },
+  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -12,8 +108,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-06-28T22:01:57Z",
-    "pushed_at": "2026-06-28T22:01:53Z",
+    "updated_at": "2026-06-29T00:09:05Z",
+    "pushed_at": "2026-06-29T00:09:01Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -191,39 +287,6 @@
     "fork": true
   },
   {
-    "name": "trustedrelays",
-    "description": "Reference implementation for Trusted Relay Assertions, trust scores for Nostr relays",
-    "html_url": "https://github.com/Letdown2491/trustedrelays",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "Dockerfile"
-    ],
-    "screenshot": null,
-    "stargazers_count": 6,
-    "forks_count": 1,
-    "open_issues_count": 0,
-    "topics": [
-      "monitoring-tool",
-      "nip-11",
-      "nip-66",
-      "nip-85",
-      "nostr",
-      "relays",
-      "weboftrust",
-      "wot"
-    ],
-    "updated_at": "2026-06-26T19:14:05Z",
-    "pushed_at": "2026-06-26T19:14:02Z",
-    "created_at": "2026-01-17T03:36:24Z",
-    "homepage": "https://trustedrelays.xyz",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 6,
-    "fork": false
-  },
-  {
     "name": "helmjs",
     "description": "A minimal hypermedia library for HTML-first web applications.",
     "html_url": "https://github.com/Letdown2491/helmjs",
@@ -277,43 +340,6 @@
     "archived": false,
     "watchers_count": 0,
     "fork": true
-  },
-  {
-    "name": "signet",
-    "description": "Signet is a self-hosted NIP-46 compliant remote signer for Nostr. This project is an extensive rewrite of nsecbunkerd. Companion app for Android available.",
-    "html_url": "https://github.com/Letdown2491/signet",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Kotlin",
-      "CSS",
-      "JavaScript",
-      "Dockerfile",
-      "HTML",
-      "Shell",
-      "Just"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/signet/main/signet.png",
-    "stargazers_count": 25,
-    "forks_count": 8,
-    "open_issues_count": 2,
-    "topics": [
-      "bunker",
-      "nip46",
-      "nostr",
-      "nsec",
-      "oauth",
-      "remote-signer",
-      "signer"
-    ],
-    "updated_at": "2026-06-24T23:52:59Z",
-    "pushed_at": "2026-06-10T01:05:30Z",
-    "created_at": "2025-10-24T18:49:26Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 25,
-    "fork": false
   },
   {
     "name": "haven-kit-startos",
@@ -595,31 +621,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 37,
-    "fork": false
-  },
-  {
-    "name": "signet-startos",
-    "description": "Start9 package for Signet, a self-hosted Nostr bunker",
-    "html_url": "https://github.com/Letdown2491/signet-startos",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Makefile",
-      "Dockerfile",
-      "Shell"
-    ],
-    "screenshot": null,
-    "stargazers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-06-10T01:51:25Z",
-    "pushed_at": "2026-06-10T02:02:24Z",
-    "created_at": "2026-06-07T21:28:48Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 0,
     "fork": false
   },
   {
