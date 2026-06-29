@@ -1,5 +1,84 @@
 [
   {
+    "name": "satori-startos",
+    "description": "Satori is a privacy-respecting, self-hosted hypermedia Nostr client for StartOS 0.4.0+",
+    "html_url": "https://github.com/Letdown2491/satori-startos",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Makefile",
+      "Dockerfile"
+    ],
+    "screenshot": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [
+      "hateoas",
+      "hypermedia-client",
+      "nostr",
+      "nostr-client",
+      "start9",
+      "startos"
+    ],
+    "updated_at": "2026-06-29T07:39:09Z",
+    "pushed_at": "2026-06-29T07:40:28Z",
+    "created_at": "2026-06-28T01:12:02Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 0,
+    "fork": false
+  },
+  {
+    "name": "satori",
+    "description": "A experimental but full-featured Nostr client built as a server-rendered hypermedia (HATEOAS) app with a zero-JS baseline, progressively enhanced with helmjs",
+    "html_url": "https://github.com/Letdown2491/satori",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "JavaScript",
+      "Dockerfile",
+      "Shell"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-06-29T07:21:45Z",
+    "pushed_at": "2026-06-29T07:21:42Z",
+    "created_at": "2026-06-20T00:15:04Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-06-29T05:50:18Z",
+    "pushed_at": "2026-06-29T05:50:14Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "signet-startos",
     "description": "Start9 package for Signet, a self-hosted Nostr bunker",
     "html_url": "https://github.com/Letdown2491/signet-startos",
@@ -96,28 +175,6 @@
     "fork": false
   },
   {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-06-29T00:09:05Z",
-    "pushed_at": "2026-06-29T00:09:01Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
-    "fork": false
-  },
-  {
     "name": "haven-kit",
     "description": "Run your own HAVEN Nostr relay easily with just a couple of clicks. ",
     "html_url": "https://github.com/Letdown2491/haven-kit",
@@ -154,63 +211,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 10,
-    "fork": false
-  },
-  {
-    "name": "satori-startos",
-    "description": "Satori is a privacy-respecting, self-hosted hypermedia Nostr client for StartOS 0.4.0+",
-    "html_url": "https://github.com/Letdown2491/satori-startos",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Makefile",
-      "Dockerfile"
-    ],
-    "screenshot": null,
-    "stargazers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [
-      "hateoas",
-      "hypermedia-client",
-      "nostr",
-      "nostr-client",
-      "start9",
-      "startos"
-    ],
-    "updated_at": "2026-06-28T02:17:39Z",
-    "pushed_at": "2026-06-28T02:17:36Z",
-    "created_at": "2026-06-28T01:12:02Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 0,
-    "fork": false
-  },
-  {
-    "name": "satori",
-    "description": "A experimental but full-featured Nostr client built as a server-rendered hypermedia (HATEOAS) app with a zero-JS baseline, progressively enhanced with helmjs",
-    "html_url": "https://github.com/Letdown2491/satori",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "JavaScript",
-      "Dockerfile",
-      "Shell"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-06-28T02:12:59Z",
-    "pushed_at": "2026-06-28T01:09:32Z",
-    "created_at": "2026-06-20T00:15:04Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
     "fork": false
   },
   {
