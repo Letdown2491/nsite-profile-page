@@ -1,5 +1,27 @@
 [
   {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-07-01T23:15:12Z",
+    "pushed_at": "2026-07-01T23:15:08Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "satori-startos",
     "description": "Satori is a privacy-respecting, self-hosted hypermedia Nostr client for StartOS 0.4.0+",
     "html_url": "https://github.com/Letdown2491/satori-startos",
@@ -50,28 +72,6 @@
     "updated_at": "2026-07-01T23:02:42Z",
     "pushed_at": "2026-07-01T23:02:39Z",
     "created_at": "2026-06-20T00:15:04Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
-    "fork": false
-  },
-  {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-07-01T21:28:00Z",
-    "pushed_at": "2026-07-01T21:27:56Z",
-    "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
     "archived": false,
