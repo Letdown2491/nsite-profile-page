@@ -1,5 +1,145 @@
 [
   {
+    "name": "haven-kit-startos",
+    "description": "HAVEN relay for StartOS",
+    "html_url": "https://github.com/Letdown2491/haven-kit-startos",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Shell",
+      "Makefile",
+      "Dockerfile"
+    ],
+    "screenshot": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-07-09T23:54:41Z",
+    "pushed_at": "2026-07-09T23:55:01Z",
+    "created_at": "2026-06-12T00:26:06Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 2,
+    "fork": false
+  },
+  {
+    "name": "haven-kit-umbrel",
+    "description": "Umbrel community store for HAVEN Kit, providing a simple installation interface for the HAVEN Nostr relay.",
+    "html_url": "https://github.com/Letdown2491/haven-kit-umbrel",
+    "language": "Shell",
+    "languages": [
+      "Shell"
+    ],
+    "screenshot": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-07-09T23:44:40Z",
+    "pushed_at": "2026-07-09T23:44:34Z",
+    "created_at": "2025-10-22T00:32:22Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 0,
+    "fork": false
+  },
+  {
+    "name": "haven-kit",
+    "description": "Run your own HAVEN Nostr relay easily with just a couple of clicks. ",
+    "html_url": "https://github.com/Letdown2491/haven-kit",
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "Python",
+      "CSS",
+      "Shell",
+      "Dockerfile"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/haven-kit/main/1.jpg",
+    "stargazers_count": 10,
+    "forks_count": 1,
+    "open_issues_count": 0,
+    "topics": [
+      "blossom",
+      "blossom-server",
+      "config-admin-ui",
+      "go",
+      "nostr",
+      "nostr-relay",
+      "python",
+      "relay",
+      "self-hosted",
+      "social-media",
+      "umbrel"
+    ],
+    "updated_at": "2026-07-09T23:40:32Z",
+    "pushed_at": "2026-07-09T23:40:31Z",
+    "created_at": "2025-10-21T19:28:54Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 10,
+    "fork": false
+  },
+  {
+    "name": "torii",
+    "description": "Torii is a private outbox aggregator relay with build in inbound and outbound Tor support.",
+    "html_url": "https://github.com/Letdown2491/torii",
+    "language": "Go",
+    "languages": [
+      "Go",
+      "HTML",
+      "Shell",
+      "Dockerfile"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [
+      "nostr",
+      "nostr-relay",
+      "privacy",
+      "relay",
+      "self-",
+      "tor"
+    ],
+    "updated_at": "2026-07-09T23:27:03Z",
+    "pushed_at": "2026-07-07T15:11:38Z",
+    "created_at": "2026-07-03T23:57:53Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-07-09T22:27:38Z",
+    "pushed_at": "2026-07-09T22:27:33Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "signet",
     "description": "Signet is a self-hosted NIP-46 compliant remote signer for Nostr. This project is an extensive rewrite of nsecbunkerd. Companion app for Android available.",
     "html_url": "https://github.com/Letdown2491/signet",
@@ -34,28 +174,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 27,
-    "fork": false
-  },
-  {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-07-09T20:46:55Z",
-    "pushed_at": "2026-07-09T20:46:46Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
     "fork": false
   },
   {
@@ -338,45 +456,6 @@
     "fork": false
   },
   {
-    "name": "haven-kit",
-    "description": "Run your own HAVEN Nostr relay easily with just a couple of clicks. ",
-    "html_url": "https://github.com/Letdown2491/haven-kit",
-    "language": "JavaScript",
-    "languages": [
-      "JavaScript",
-      "HTML",
-      "Python",
-      "CSS",
-      "Shell",
-      "Dockerfile"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/haven-kit/main/1.jpg",
-    "stargazers_count": 10,
-    "forks_count": 1,
-    "open_issues_count": 0,
-    "topics": [
-      "blossom",
-      "blossom-server",
-      "config-admin-ui",
-      "go",
-      "nostr",
-      "nostr-relay",
-      "python",
-      "relay",
-      "self-hosted",
-      "social-media",
-      "umbrel"
-    ],
-    "updated_at": "2026-06-28T03:11:29Z",
-    "pushed_at": "2026-06-14T17:08:14Z",
-    "created_at": "2025-10-21T19:28:54Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 10,
-    "fork": false
-  },
-  {
     "name": "hextjs",
     "description": "Adds Nostr signing and Lightning payments (WebLN and NWC)  to HATEOAS/hypermedia apps.",
     "html_url": "https://github.com/Letdown2491/hextjs",
@@ -447,31 +526,6 @@
     "archived": false,
     "watchers_count": 0,
     "fork": true
-  },
-  {
-    "name": "haven-kit-startos",
-    "description": "HAVEN relay for StartOS",
-    "html_url": "https://github.com/Letdown2491/haven-kit-startos",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "Shell",
-      "Makefile",
-      "Dockerfile"
-    ],
-    "screenshot": null,
-    "stargazers_count": 2,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-06-21T01:43:56Z",
-    "pushed_at": "2026-06-21T01:43:53Z",
-    "created_at": "2026-06-12T00:26:06Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 2,
-    "fork": false
   },
   {
     "name": "haven",
@@ -626,28 +680,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 1,
-    "fork": false
-  },
-  {
-    "name": "haven-kit-umbrel",
-    "description": "Umbrel community store for HAVEN Kit, providing a simple installation interface for the HAVEN Nostr relay.",
-    "html_url": "https://github.com/Letdown2491/haven-kit-umbrel",
-    "language": "Shell",
-    "languages": [
-      "Shell"
-    ],
-    "screenshot": null,
-    "stargazers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-06-14T17:21:52Z",
-    "pushed_at": "2026-06-14T17:21:49Z",
-    "created_at": "2025-10-22T00:32:22Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 0,
     "fork": false
   },
   {
