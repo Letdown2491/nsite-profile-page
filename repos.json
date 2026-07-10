@@ -1,5 +1,37 @@
 [
   {
+    "name": "torii",
+    "description": "Torii is a private outbox aggregator relay with build in inbound and outbound Tor support.",
+    "html_url": "https://github.com/Letdown2491/torii",
+    "language": "Go",
+    "languages": [
+      "Go",
+      "HTML",
+      "Shell",
+      "Dockerfile"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [
+      "nostr",
+      "nostr-relay",
+      "privacy",
+      "relay",
+      "self-",
+      "tor"
+    ],
+    "updated_at": "2026-07-10T16:23:06Z",
+    "pushed_at": "2026-07-10T16:21:34Z",
+    "created_at": "2026-07-03T23:57:53Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -12,8 +44,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-07-10T11:52:32Z",
-    "pushed_at": "2026-07-10T11:51:57Z",
+    "updated_at": "2026-07-10T14:26:24Z",
+    "pushed_at": "2026-07-10T14:24:46Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -162,38 +194,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 10,
-    "fork": false
-  },
-  {
-    "name": "torii",
-    "description": "Torii is a private outbox aggregator relay with build in inbound and outbound Tor support.",
-    "html_url": "https://github.com/Letdown2491/torii",
-    "language": "Go",
-    "languages": [
-      "Go",
-      "HTML",
-      "Shell",
-      "Dockerfile"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [
-      "nostr",
-      "nostr-relay",
-      "privacy",
-      "relay",
-      "self-",
-      "tor"
-    ],
-    "updated_at": "2026-07-09T23:27:03Z",
-    "pushed_at": "2026-07-07T15:11:38Z",
-    "created_at": "2026-07-03T23:57:53Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
     "fork": false
   },
   {
