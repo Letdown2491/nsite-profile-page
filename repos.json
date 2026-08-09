@@ -1,7 +1,7 @@
 [
   {
     "name": "kuma-linux",
-    "description": "A declarative, atom Linux distro",
+    "description": "A declarative, atomic Linux distro drawing inspiration from Nix and Silverblue.",
     "html_url": "https://github.com/Letdown2491/kuma-linux",
     "language": "Rust",
     "languages": [
@@ -13,11 +13,18 @@
     "stargazers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-08-09T01:30:22Z",
-    "pushed_at": "2026-08-09T01:30:18Z",
+    "topics": [
+      "atomic",
+      "bootc",
+      "declarative",
+      "fedora",
+      "linu",
+      "linux-distribution"
+    ],
+    "updated_at": "2026-08-09T03:05:12Z",
+    "pushed_at": "2026-08-09T03:05:52Z",
     "created_at": "2026-08-08T21:39:04Z",
-    "homepage": null,
+    "homepage": "",
     "license": "MIT License",
     "archived": false,
     "watchers_count": 0,
@@ -36,8 +43,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-08-08T23:27:48Z",
-    "pushed_at": "2026-08-08T23:27:45Z",
+    "updated_at": "2026-08-09T01:40:07Z",
+    "pushed_at": "2026-08-09T01:40:03Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
