@@ -1,5 +1,58 @@
 [
   {
+    "name": "kuma-linux",
+    "description": "A declarative, atomic Linux distro drawing inspiration from Nix and Silverblue.",
+    "html_url": "https://github.com/Letdown2491/kuma-linux",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell",
+      "CSS"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/kuma-linux/main/docs/screenshots/niri.jpg",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [
+      "atomic",
+      "bootc",
+      "declarative",
+      "fedora",
+      "linu",
+      "linux-distribution"
+    ],
+    "updated_at": "2026-08-14T03:39:59Z",
+    "pushed_at": "2026-08-14T03:39:48Z",
+    "created_at": "2026-08-08T21:39:04Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 2,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-08-14T01:50:57Z",
+    "pushed_at": "2026-08-14T01:50:53Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "rookery",
     "description": "A nostr onboarding course for technical and non-technical users.",
     "html_url": "https://github.com/Letdown2491/rookery",
@@ -22,28 +75,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 0,
-    "fork": false
-  },
-  {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-08-13T23:39:55Z",
-    "pushed_at": "2026-08-13T23:39:52Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
     "fork": false
   },
   {
@@ -170,37 +201,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 41,
-    "fork": false
-  },
-  {
-    "name": "kuma-linux",
-    "description": "A declarative, atomic Linux distro drawing inspiration from Nix and Silverblue.",
-    "html_url": "https://github.com/Letdown2491/kuma-linux",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell",
-      "CSS"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/kuma-linux/main/docs/screenshots/niri.jpg",
-    "stargazers_count": 2,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [
-      "atomic",
-      "bootc",
-      "declarative",
-      "fedora",
-      "linu",
-      "linux-distribution"
-    ],
-    "updated_at": "2026-08-10T08:06:03Z",
-    "pushed_at": "2026-08-09T21:32:40Z",
-    "created_at": "2026-08-08T21:39:04Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 2,
     "fork": false
   },
   {
