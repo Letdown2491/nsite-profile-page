@@ -1,29 +1,7 @@
 [
   {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-08-16T04:34:54Z",
-    "pushed_at": "2026-08-16T04:34:50Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
-    "fork": false
-  },
-  {
     "name": "kuma-linux",
-    "description": "A declarative, atomic Linux distro drawing inspiration from Nix and Silverblue.",
+    "description": "A declarative, atomic, and immutable Linux distro based on Fedora but drawing inspiration from Nix and Silverblue.",
     "html_url": "https://github.com/Letdown2491/kuma-linux",
     "language": "Rust",
     "languages": [
@@ -39,17 +17,44 @@
       "atomic",
       "bootc",
       "declarative",
+      "distro",
       "fedora",
-      "linu",
-      "linux-distribution"
+      "immutable",
+      "linux",
+      "linux-custom-image",
+      "linux-distribution",
+      "linux-distro",
+      "niri"
     ],
-    "updated_at": "2026-08-15T18:59:38Z",
-    "pushed_at": "2026-08-15T22:40:34Z",
+    "updated_at": "2026-08-16T06:32:22Z",
+    "pushed_at": "2026-08-16T06:32:04Z",
     "created_at": "2026-08-08T21:39:04Z",
     "homepage": "",
     "license": "MIT License",
     "archived": false,
     "watchers_count": 2,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-08-16T05:27:21Z",
+    "pushed_at": "2026-08-16T05:27:11Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
     "fork": false
   },
   {
