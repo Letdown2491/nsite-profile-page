@@ -1,27 +1,5 @@
 [
   {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-08-16T22:19:37Z",
-    "pushed_at": "2026-08-16T22:19:34Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
-    "fork": false
-  },
-  {
     "name": "kuma-linux",
     "description": "A declarative, atomic, and immutable Linux distro based on Fedora but drawing inspiration from Nix and Silverblue.",
     "html_url": "https://github.com/Letdown2491/kuma-linux",
@@ -29,6 +7,7 @@
     "languages": [
       "Rust",
       "Shell",
+      "Python",
       "CSS"
     ],
     "screenshot": "https://raw.githubusercontent.com/letdown2491/kuma-linux/main/docs/screenshots/niri.jpg",
@@ -48,13 +27,35 @@
       "linux-distro",
       "niri"
     ],
-    "updated_at": "2026-08-16T07:12:57Z",
-    "pushed_at": "2026-08-16T23:08:40Z",
+    "updated_at": "2026-08-17T00:09:30Z",
+    "pushed_at": "2026-08-17T00:59:37Z",
     "created_at": "2026-08-08T21:39:04Z",
     "homepage": "",
     "license": "MIT License",
     "archived": false,
     "watchers_count": 2,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-08-16T23:18:49Z",
+    "pushed_at": "2026-08-16T23:18:43Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
     "fork": false
   },
   {
