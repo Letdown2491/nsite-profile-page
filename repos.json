@@ -1,5 +1,42 @@
 [
   {
+    "name": "kuma-linux",
+    "description": "A declarative, atomic, and immutable Linux distro based on Fedora but drawing inspiration from Nix and Silverblue.",
+    "html_url": "https://github.com/Letdown2491/kuma-linux",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell",
+      "Python",
+      "CSS"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/kuma-linux/main/docs/screenshots/niri.jpg",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [
+      "atomic",
+      "bootc",
+      "declarative",
+      "distro",
+      "fedora",
+      "immutable",
+      "linux",
+      "linux-custom-image",
+      "linux-distribution",
+      "linux-distro",
+      "niri"
+    ],
+    "updated_at": "2026-08-20T04:04:16Z",
+    "pushed_at": "2026-08-20T04:23:21Z",
+    "created_at": "2026-08-08T21:39:04Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 2,
+    "fork": false
+  },
+  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -12,8 +49,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-08-20T02:55:57Z",
-    "pushed_at": "2026-08-20T02:55:43Z",
+    "updated_at": "2026-08-20T03:45:29Z",
+    "pushed_at": "2026-08-20T03:45:02Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -74,43 +111,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 40,
-    "fork": false
-  },
-  {
-    "name": "kuma-linux",
-    "description": "A declarative, atomic, and immutable Linux distro based on Fedora but drawing inspiration from Nix and Silverblue.",
-    "html_url": "https://github.com/Letdown2491/kuma-linux",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell",
-      "Python",
-      "CSS"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/kuma-linux/main/docs/screenshots/niri.jpg",
-    "stargazers_count": 2,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [
-      "atomic",
-      "bootc",
-      "declarative",
-      "distro",
-      "fedora",
-      "immutable",
-      "linux",
-      "linux-custom-image",
-      "linux-distribution",
-      "linux-distro",
-      "niri"
-    ],
-    "updated_at": "2026-08-19T04:41:53Z",
-    "pushed_at": "2026-08-19T06:56:01Z",
-    "created_at": "2026-08-08T21:39:04Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 2,
     "fork": false
   },
   {
