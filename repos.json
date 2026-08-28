@@ -1,29 +1,7 @@
 [
   {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-08-28T01:16:44Z",
-    "pushed_at": "2026-08-28T01:16:33Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
-    "fork": false
-  },
-  {
     "name": "kuma-linux",
-    "description": "A declarative, atomic, and immutable Linux distro based on Fedora but drawing inspiration from NixOS.",
+    "description": "Your system is one file: a short declaration builds into a complete Linux desktop on Fedora bootc, with atomic updates and self-healing boots.",
     "html_url": "https://github.com/Letdown2491/kuma-linux",
     "language": "Rust",
     "languages": [
@@ -36,25 +14,45 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [
-      "atomic",
+      "atomic-updates",
       "bootc",
       "declarative",
       "distro",
       "fedora",
       "immutable",
       "linux",
-      "linux-custom-image",
-      "linux-distribution",
-      "linux-distro",
-      "niri"
+      "niri",
+      "noctalia"
     ],
-    "updated_at": "2026-08-27T23:50:16Z",
-    "pushed_at": "2026-08-28T00:36:50Z",
+    "updated_at": "2026-08-28T22:56:05Z",
+    "pushed_at": "2026-08-28T19:36:19Z",
     "created_at": "2026-08-08T21:39:04Z",
     "homepage": "",
     "license": "MIT License",
     "archived": false,
     "watchers_count": 3,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-08-28T13:52:01Z",
+    "pushed_at": "2026-08-28T13:48:51Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
     "fork": false
   },
   {
