@@ -1,5 +1,40 @@
 [
   {
+    "name": "kuma-linux",
+    "description": "Your system is one file: a short declaration builds into a complete Linux desktop on Fedora bootc, with atomic updates and self-healing boots.",
+    "html_url": "https://github.com/Letdown2491/kuma-linux",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell",
+      "Dockerfile",
+      "Python"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/kuma-linux/main/docs/screenshots/niri.png",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "open_issues_count": 2,
+    "topics": [
+      "atomic-updates",
+      "bootc",
+      "declarative",
+      "distro",
+      "fedora",
+      "immutable",
+      "linux",
+      "niri",
+      "noctalia"
+    ],
+    "updated_at": "2026-09-04T08:48:03Z",
+    "pushed_at": "2026-09-04T08:47:50Z",
+    "created_at": "2026-08-08T21:39:04Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 3,
+    "fork": false
+  },
+  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -12,8 +47,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-09-04T00:47:50Z",
-    "pushed_at": "2026-09-04T00:47:46Z",
+    "updated_at": "2026-09-04T05:32:30Z",
+    "pushed_at": "2026-09-04T05:32:23Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -50,41 +85,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 40,
-    "fork": false
-  },
-  {
-    "name": "kuma-linux",
-    "description": "Your system is one file: a short declaration builds into a complete Linux desktop on Fedora bootc, with atomic updates and self-healing boots.",
-    "html_url": "https://github.com/Letdown2491/kuma-linux",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell",
-      "Dockerfile",
-      "Python"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/kuma-linux/main/docs/screenshots/niri.png",
-    "stargazers_count": 3,
-    "forks_count": 0,
-    "open_issues_count": 2,
-    "topics": [
-      "atomic-updates",
-      "bootc",
-      "declarative",
-      "distro",
-      "fedora",
-      "immutable",
-      "linux",
-      "niri",
-      "noctalia"
-    ],
-    "updated_at": "2026-08-31T07:54:33Z",
-    "pushed_at": "2026-08-31T08:15:56Z",
-    "created_at": "2026-08-08T21:39:04Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 3,
     "fork": false
   },
   {
