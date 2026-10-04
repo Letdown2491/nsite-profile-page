@@ -1,27 +1,5 @@
 [
   {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-10-03T20:38:04Z",
-    "pushed_at": "2026-10-03T20:38:01Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
-    "fork": false
-  },
-  {
     "name": "kumaUI",
     "description": "A minimalist desktop shell for Niri or Sway, used in KumaOS written in Rust and using the GPUI framework.",
     "html_url": "https://github.com/Letdown2491/kumaUI",
@@ -34,7 +12,7 @@
     "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaUI/main/docs/kumaUI.png",
     "stargazers_count": 1,
     "forks_count": 0,
-    "open_issues_count": 16,
+    "open_issues_count": 9,
     "topics": [
       "desktop-shell",
       "gpui",
@@ -43,10 +21,63 @@
       "swaywm",
       "wayland"
     ],
-    "updated_at": "2026-10-03T17:12:46Z",
-    "pushed_at": "2026-10-03T17:12:42Z",
+    "updated_at": "2026-10-04T04:21:47Z",
+    "pushed_at": "2026-10-04T04:21:43Z",
     "created_at": "2026-10-02T07:11:51Z",
     "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
+    "name": "runkit",
+    "description": "Graphical manager for runit services.",
+    "html_url": "https://github.com/Letdown2491/runkit",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/runkit/main/assets/screenshots/1-services.png",
+    "stargazers_count": 41,
+    "forks_count": 3,
+    "open_issues_count": 2,
+    "topics": [
+      "gtk4",
+      "runit",
+      "rust-lang",
+      "service-management",
+      "void-linux",
+      "void-packages",
+      "voidtools"
+    ],
+    "updated_at": "2026-10-04T00:10:38Z",
+    "pushed_at": "2025-11-10T07:25:03Z",
+    "created_at": "2025-10-30T08:16:44Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 41,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-10-03T23:31:52Z",
+    "pushed_at": "2026-10-03T23:31:49Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
     "license": "MIT License",
     "archived": false,
     "watchers_count": 1,
@@ -144,37 +175,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 0,
-    "fork": false
-  },
-  {
-    "name": "runkit",
-    "description": "Graphical manager for runit services.",
-    "html_url": "https://github.com/Letdown2491/runkit",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/runkit/main/assets/screenshots/1-services.png",
-    "stargazers_count": 42,
-    "forks_count": 3,
-    "open_issues_count": 2,
-    "topics": [
-      "gtk4",
-      "runit",
-      "rust-lang",
-      "service-management",
-      "void-linux",
-      "void-packages",
-      "voidtools"
-    ],
-    "updated_at": "2026-09-12T18:11:58Z",
-    "pushed_at": "2025-11-10T07:25:03Z",
-    "created_at": "2025-10-30T08:16:44Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 42,
     "fork": false
   },
   {
