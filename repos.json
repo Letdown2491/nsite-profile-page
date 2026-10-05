@@ -1,7 +1,7 @@
 [
   {
     "name": "kumaOS",
-    "description": "A declarative, atomic, and immutable distro based on Fedora bootc using Niri and a custom shell",
+    "description": "A declarative, atomic, and immutable distro based on Fedora bootc using Niri and a custom shell, kumaUI, by default.",
     "html_url": "https://github.com/Letdown2491/kumaOS",
     "language": "Rust",
     "languages": [
@@ -25,13 +25,44 @@
       "niri",
       "noctalia"
     ],
-    "updated_at": "2026-10-05T02:50:32Z",
-    "pushed_at": "2026-10-05T02:50:28Z",
+    "updated_at": "2026-10-05T17:49:03Z",
+    "pushed_at": "2026-10-05T17:48:58Z",
     "created_at": "2026-08-08T21:39:04Z",
     "homepage": "",
     "license": "MIT License",
     "archived": false,
     "watchers_count": 3,
+    "fork": false
+  },
+  {
+    "name": "runkit",
+    "description": "Graphical manager for runit services.",
+    "html_url": "https://github.com/Letdown2491/runkit",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/runkit/main/assets/screenshots/1-services.png",
+    "stargazers_count": 40,
+    "forks_count": 3,
+    "open_issues_count": 2,
+    "topics": [
+      "gtk4",
+      "runit",
+      "rust-lang",
+      "service-management",
+      "void-linux",
+      "void-packages",
+      "voidtools"
+    ],
+    "updated_at": "2026-10-05T16:36:07Z",
+    "pushed_at": "2025-11-10T07:25:03Z",
+    "created_at": "2025-10-30T08:16:44Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 40,
     "fork": false
   },
   {
@@ -47,8 +78,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-10-05T01:37:46Z",
-    "pushed_at": "2026-10-05T01:37:42Z",
+    "updated_at": "2026-10-05T08:24:30Z",
+    "pushed_at": "2026-10-05T08:24:26Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -69,7 +100,7 @@
     "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaUI/main/docs/kumaUI.png",
     "stargazers_count": 1,
     "forks_count": 0,
-    "open_issues_count": 7,
+    "open_issues_count": 8,
     "topics": [
       "desktop-shell",
       "gpui",
@@ -85,37 +116,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 1,
-    "fork": false
-  },
-  {
-    "name": "runkit",
-    "description": "Graphical manager for runit services.",
-    "html_url": "https://github.com/Letdown2491/runkit",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/runkit/main/assets/screenshots/1-services.png",
-    "stargazers_count": 41,
-    "forks_count": 3,
-    "open_issues_count": 2,
-    "topics": [
-      "gtk4",
-      "runit",
-      "rust-lang",
-      "service-management",
-      "void-linux",
-      "void-packages",
-      "voidtools"
-    ],
-    "updated_at": "2026-10-04T00:10:38Z",
-    "pushed_at": "2025-11-10T07:25:03Z",
-    "created_at": "2025-10-30T08:16:44Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 41,
     "fork": false
   },
   {
@@ -257,8 +257,8 @@
     ],
     "screenshot": "https://raw.githubusercontent.com/letdown2491/signet/main/signet.png",
     "stargazers_count": 28,
-    "forks_count": 8,
-    "open_issues_count": 2,
+    "forks_count": 9,
+    "open_issues_count": 6,
     "topics": [
       "bunker",
       "nip46",
