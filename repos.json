@@ -1,5 +1,51 @@
 [
   {
+    "name": "nebula-gtk",
+    "description": "A GUI frontend for Void Linux's XBPS software tooling.",
+    "html_url": "https://github.com/Letdown2491/nebula-gtk",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "CSS",
+      "Shell"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/nebula-gtk/main/assets/screenshots/1-discover.png",
+    "stargazers_count": 42,
+    "forks_count": 3,
+    "open_issues_count": 7,
+    "topics": [],
+    "updated_at": "2026-10-10T15:35:51Z",
+    "pushed_at": "2025-11-12T21:33:47Z",
+    "created_at": "2025-10-31T20:13:36Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 42,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-10-10T09:27:24Z",
+    "pushed_at": "2026-10-10T09:27:21Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "kumaUI",
     "description": "A minimalist desktop shell for Niri or Sway, used in KumaOS written in Rust and using the GPUI framework.",
     "html_url": "https://github.com/Letdown2491/kumaUI",
@@ -64,28 +110,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 3,
-    "fork": false
-  },
-  {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-10-10T02:06:45Z",
-    "pushed_at": "2026-10-10T02:06:41Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
     "fork": false
   },
   {
@@ -208,30 +232,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 0,
-    "fork": false
-  },
-  {
-    "name": "nebula-gtk",
-    "description": "A GUI frontend for Void Linux's XBPS software tooling.",
-    "html_url": "https://github.com/Letdown2491/nebula-gtk",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "CSS",
-      "Shell"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/nebula-gtk/main/assets/screenshots/1-discover.png",
-    "stargazers_count": 41,
-    "forks_count": 3,
-    "open_issues_count": 7,
-    "topics": [],
-    "updated_at": "2026-09-09T19:21:59Z",
-    "pushed_at": "2025-11-12T21:33:47Z",
-    "created_at": "2025-10-31T20:13:36Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 41,
     "fork": false
   },
   {
