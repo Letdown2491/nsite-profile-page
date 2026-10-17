@@ -1,5 +1,29 @@
 [
   {
+    "name": "backchat",
+    "description": "Rust implementation of Bitchat using GPUI",
+    "html_url": "https://github.com/Letdown2491/backchat",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell",
+      "Dockerfile"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/backchat/main/self/packaging/screenshots/backchat.png",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-10-17T06:02:26Z",
+    "pushed_at": "2026-10-17T06:02:24Z",
+    "created_at": "2026-10-15T23:46:16Z",
+    "homepage": null,
+    "license": null,
+    "archived": false,
+    "watchers_count": 0,
+    "fork": false
+  },
+  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -12,8 +36,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-10-16T22:33:51Z",
-    "pushed_at": "2026-10-16T22:33:48Z",
+    "updated_at": "2026-10-17T01:05:06Z",
+    "pushed_at": "2026-10-17T01:05:02Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -54,26 +78,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 5,
-    "fork": false
-  },
-  {
-    "name": "backchat",
-    "description": "Rust implementation of Bitchat using GPUI",
-    "html_url": "https://github.com/Letdown2491/backchat",
-    "language": null,
-    "languages": [],
-    "screenshot": null,
-    "stargazers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-10-16T05:20:51Z",
-    "pushed_at": "2026-10-15T23:46:18Z",
-    "created_at": "2026-10-15T23:46:16Z",
-    "homepage": null,
-    "license": null,
-    "archived": false,
-    "watchers_count": 0,
     "fork": false
   },
   {
