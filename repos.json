@@ -1,5 +1,72 @@
 [
   {
+    "name": "kumaUI",
+    "description": "A minimalist desktop shell for Niri or Sway, used in KumaOS written in Rust and using the GPUI framework.",
+    "html_url": "https://github.com/Letdown2491/kumaUI",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell",
+      "Python",
+      "Dockerfile"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaUI/main/docs/kumaUI.png",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "open_issues_count": 9,
+    "topics": [
+      "desktop-shell",
+      "gpui",
+      "niri",
+      "rust",
+      "swaywm",
+      "wayland"
+    ],
+    "updated_at": "2026-10-23T17:21:34Z",
+    "pushed_at": "2026-10-23T17:21:29Z",
+    "created_at": "2026-10-02T07:11:51Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 4,
+    "fork": false
+  },
+  {
+    "name": "kumaOS",
+    "description": "A declarative, atomic, and immutable distro based on Fedora bootc using Niri and a custom shell, kumaUI, by default.",
+    "html_url": "https://github.com/Letdown2491/kumaOS",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell",
+      "Dockerfile",
+      "Python"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaOS/main/docs/screenshots/niri.png",
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "open_issues_count": 6,
+    "topics": [
+      "atomic-updates",
+      "bootc",
+      "declarative",
+      "distro",
+      "fedora",
+      "immutable",
+      "linux",
+      "niri",
+      "noctalia"
+    ],
+    "updated_at": "2026-10-23T17:00:12Z",
+    "pushed_at": "2026-10-23T17:00:07Z",
+    "created_at": "2026-08-08T21:39:04Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 8,
+    "fork": false
+  },
+  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -12,8 +79,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-10-23T07:00:32Z",
-    "pushed_at": "2026-10-23T07:00:28Z",
+    "updated_at": "2026-10-23T12:34:36Z",
+    "pushed_at": "2026-10-23T12:34:31Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -67,73 +134,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 43,
-    "fork": false
-  },
-  {
-    "name": "kumaOS",
-    "description": "A declarative, atomic, and immutable distro based on Fedora bootc using Niri and a custom shell, kumaUI, by default.",
-    "html_url": "https://github.com/Letdown2491/kumaOS",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell",
-      "Dockerfile",
-      "Python"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaOS/main/docs/screenshots/niri.png",
-    "stargazers_count": 8,
-    "forks_count": 0,
-    "open_issues_count": 5,
-    "topics": [
-      "atomic-updates",
-      "bootc",
-      "declarative",
-      "distro",
-      "fedora",
-      "immutable",
-      "linux",
-      "niri",
-      "noctalia"
-    ],
-    "updated_at": "2026-10-23T03:49:46Z",
-    "pushed_at": "2026-10-23T03:49:42Z",
-    "created_at": "2026-08-08T21:39:04Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 8,
-    "fork": false
-  },
-  {
-    "name": "kumaUI",
-    "description": "A minimalist desktop shell for Niri or Sway, used in KumaOS written in Rust and using the GPUI framework.",
-    "html_url": "https://github.com/Letdown2491/kumaUI",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell",
-      "Python",
-      "Dockerfile"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaUI/main/docs/kumaUI.png",
-    "stargazers_count": 4,
-    "forks_count": 0,
-    "open_issues_count": 8,
-    "topics": [
-      "desktop-shell",
-      "gpui",
-      "niri",
-      "rust",
-      "swaywm",
-      "wayland"
-    ],
-    "updated_at": "2026-10-22T21:11:55Z",
-    "pushed_at": "2026-10-22T21:14:37Z",
-    "created_at": "2026-10-02T07:11:51Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 4,
     "fork": false
   },
   {
