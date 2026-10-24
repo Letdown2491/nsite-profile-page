@@ -1,5 +1,52 @@
 [
   {
+    "name": "orchard",
+    "description": "A permissionless store for Flatpaks",
+    "html_url": "https://github.com/Letdown2491/orchard",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Python",
+      "Dockerfile",
+      "Shell"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/orchard/main/docs/orchard-main.png",
+    "stargazers_count": 5,
+    "forks_count": 1,
+    "open_issues_count": 3,
+    "topics": [],
+    "updated_at": "2026-10-24T19:48:42Z",
+    "pushed_at": "2026-10-22T01:58:29Z",
+    "created_at": "2026-10-10T23:12:27Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 5,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-10-24T17:51:34Z",
+    "pushed_at": "2026-10-24T17:51:31Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "kumaOS",
     "description": "A declarative, atomic, and immutable distro based on Fedora bootc using Niri and a custom shell, kumaUI, by default.",
     "html_url": "https://github.com/Letdown2491/kumaOS",
@@ -13,7 +60,7 @@
     "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaOS/main/docs/screenshots/niri.png",
     "stargazers_count": 8,
     "forks_count": 0,
-    "open_issues_count": 5,
+    "open_issues_count": 4,
     "topics": [
       "atomic-updates",
       "bootc",
@@ -32,53 +79,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 8,
-    "fork": false
-  },
-  {
-    "name": "orchard",
-    "description": "A permissionless store for Flatpaks",
-    "html_url": "https://github.com/Letdown2491/orchard",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Python",
-      "Dockerfile",
-      "Shell"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/orchard/main/docs/orchard-main.png",
-    "stargazers_count": 4,
-    "forks_count": 1,
-    "open_issues_count": 3,
-    "topics": [],
-    "updated_at": "2026-10-24T17:12:52Z",
-    "pushed_at": "2026-10-22T01:58:29Z",
-    "created_at": "2026-10-10T23:12:27Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 4,
-    "fork": false
-  },
-  {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-10-24T14:15:49Z",
-    "pushed_at": "2026-10-24T14:15:45Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
     "fork": false
   },
   {
