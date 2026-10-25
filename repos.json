@@ -1,5 +1,65 @@
 [
   {
+    "name": "kumaOS",
+    "description": "A declarative, atomic, and immutable distro based on Fedora bootc using Niri and a custom shell, kumaUI, by default.",
+    "html_url": "https://github.com/Letdown2491/kumaOS",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell",
+      "Dockerfile",
+      "Python"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaOS/main/docs/screenshots/niri.png",
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "open_issues_count": 5,
+    "topics": [
+      "atomic-updates",
+      "bootc",
+      "declarative",
+      "distro",
+      "fedora",
+      "immutable",
+      "linux",
+      "niri",
+      "noctalia"
+    ],
+    "updated_at": "2026-10-25T00:44:11Z",
+    "pushed_at": "2026-10-25T00:44:07Z",
+    "created_at": "2026-08-08T21:39:04Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 8,
+    "fork": false
+  },
+  {
+    "name": "riddim",
+    "description": "A Spotify client writte in Rust and GPUI",
+    "html_url": "https://github.com/Letdown2491/riddim",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Python",
+      "Shell",
+      "Dockerfile"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/riddim/main/assets/riddim-liked.png",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-10-25T00:34:17Z",
+    "pushed_at": "2026-10-25T00:34:13Z",
+    "created_at": "2026-10-23T17:04:40Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 0,
+    "fork": false
+  },
+  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -12,8 +72,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-10-24T20:17:00Z",
-    "pushed_at": "2026-10-24T20:16:56Z",
+    "updated_at": "2026-10-24T22:55:02Z",
+    "pushed_at": "2026-10-24T22:54:59Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -44,41 +104,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 5,
-    "fork": false
-  },
-  {
-    "name": "kumaOS",
-    "description": "A declarative, atomic, and immutable distro based on Fedora bootc using Niri and a custom shell, kumaUI, by default.",
-    "html_url": "https://github.com/Letdown2491/kumaOS",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell",
-      "Dockerfile",
-      "Python"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaOS/main/docs/screenshots/niri.png",
-    "stargazers_count": 8,
-    "forks_count": 0,
-    "open_issues_count": 5,
-    "topics": [
-      "atomic-updates",
-      "bootc",
-      "declarative",
-      "distro",
-      "fedora",
-      "immutable",
-      "linux",
-      "niri",
-      "noctalia"
-    ],
-    "updated_at": "2026-10-24T17:20:52Z",
-    "pushed_at": "2026-10-24T17:20:48Z",
-    "created_at": "2026-08-08T21:39:04Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 8,
     "fork": false
   },
   {
