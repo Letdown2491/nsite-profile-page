@@ -1,5 +1,62 @@
 [
   {
+    "name": "kumaOS",
+    "description": "A declarative, atomic, and immutable distro based on Fedora bootc using Niri and a custom shell, kumaUI, by default.",
+    "html_url": "https://github.com/Letdown2491/kumaOS",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell",
+      "Dockerfile",
+      "Python"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaOS/main/docs/screenshots/niri.png",
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "open_issues_count": 2,
+    "topics": [
+      "atomic-updates",
+      "bootc",
+      "declarative",
+      "distro",
+      "fedora",
+      "immutable",
+      "linux",
+      "niri",
+      "noctalia"
+    ],
+    "updated_at": "2026-11-01T18:21:11Z",
+    "pushed_at": "2026-11-01T18:21:08Z",
+    "created_at": "2026-08-08T21:39:04Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 8,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-11-01T15:47:09Z",
+    "pushed_at": "2026-11-01T15:47:06Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "arca",
     "description": "A financial advisor assistant using OpenAI-compatible APIs",
     "html_url": "https://github.com/Letdown2491/arca",
@@ -23,63 +80,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 1,
-    "fork": false
-  },
-  {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-11-01T09:45:05Z",
-    "pushed_at": "2026-11-01T09:45:02Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
-    "fork": false
-  },
-  {
-    "name": "kumaOS",
-    "description": "A declarative, atomic, and immutable distro based on Fedora bootc using Niri and a custom shell, kumaUI, by default.",
-    "html_url": "https://github.com/Letdown2491/kumaOS",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell",
-      "Dockerfile",
-      "Python"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaOS/main/docs/screenshots/niri.png",
-    "stargazers_count": 8,
-    "forks_count": 0,
-    "open_issues_count": 3,
-    "topics": [
-      "atomic-updates",
-      "bootc",
-      "declarative",
-      "distro",
-      "fedora",
-      "immutable",
-      "linux",
-      "niri",
-      "noctalia"
-    ],
-    "updated_at": "2026-10-30T23:17:16Z",
-    "pushed_at": "2026-11-01T10:37:56Z",
-    "created_at": "2026-08-08T21:39:04Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 8,
     "fork": false
   },
   {
@@ -170,7 +170,7 @@
     "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaUI/main/docs/kumaUI.png",
     "stargazers_count": 4,
     "forks_count": 0,
-    "open_issues_count": 11,
+    "open_issues_count": 13,
     "topics": [
       "desktop-shell",
       "gpui",
