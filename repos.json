@@ -1,5 +1,50 @@
 [
   {
+    "name": "satori-desktop",
+    "description": "A native Nostr desktop client build in Rust and GPUI.",
+    "html_url": "https://github.com/Letdown2491/satori-desktop",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell"
+    ],
+    "screenshot": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-11-02T15:39:14Z",
+    "pushed_at": "2026-11-02T15:39:09Z",
+    "created_at": "2026-11-02T03:31:50Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 0,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-11-02T07:15:54Z",
+    "pushed_at": "2026-11-02T07:15:49Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "runkit",
     "description": "Graphical manager for runit services.",
     "html_url": "https://github.com/Letdown2491/runkit",
@@ -31,26 +76,6 @@
     "fork": false
   },
   {
-    "name": "satori-desktop",
-    "description": "A native Nostr desktop client build in Rust and GPUI.",
-    "html_url": "https://github.com/Letdown2491/satori-desktop",
-    "language": null,
-    "languages": [],
-    "screenshot": null,
-    "stargazers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-11-02T03:31:51Z",
-    "pushed_at": "2026-11-02T03:31:51Z",
-    "created_at": "2026-11-02T03:31:50Z",
-    "homepage": null,
-    "license": null,
-    "archived": false,
-    "watchers_count": 0,
-    "fork": false
-  },
-  {
     "name": "gertie",
     "description": "A native desktop app for working with LLM providers, featuring tabs, workspaces, kernel-level sandboxing, and more. Written in Rust and GPUI.",
     "html_url": "https://github.com/Letdown2491/gertie",
@@ -62,8 +87,8 @@
     ],
     "screenshot": null,
     "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
+    "forks_count": 1,
+    "open_issues_count": 11,
     "topics": [
       "gpui",
       "gpui-kit",
@@ -79,28 +104,6 @@
     "pushed_at": "2026-11-01T23:59:03Z",
     "created_at": "2026-10-24T22:59:29Z",
     "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
-    "fork": false
-  },
-  {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-11-02T00:16:14Z",
-    "pushed_at": "2026-11-02T00:16:10Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
     "license": "MIT License",
     "archived": false,
     "watchers_count": 1,
