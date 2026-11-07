@@ -1,5 +1,37 @@
 [
   {
+    "name": "kumaUI",
+    "description": "A minimalist desktop shell for Niri or Sway, used in KumaOS written in Rust and using the GPUI framework.",
+    "html_url": "https://github.com/Letdown2491/kumaUI",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell",
+      "Python",
+      "Dockerfile"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaUI/main/docs/kumaUI.png",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "open_issues_count": 9,
+    "topics": [
+      "desktop-shell",
+      "gpui",
+      "niri",
+      "rust",
+      "swaywm",
+      "wayland"
+    ],
+    "updated_at": "2026-11-07T19:47:18Z",
+    "pushed_at": "2026-11-07T19:47:14Z",
+    "created_at": "2026-10-02T07:11:51Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 4,
+    "fork": false
+  },
+  {
     "name": "satori-desktop",
     "description": "A native Nostr desktop client build in Rust and GPUI.",
     "html_url": "https://github.com/Letdown2491/satori-desktop",
@@ -13,8 +45,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-11-07T15:20:14Z",
-    "pushed_at": "2026-11-04T14:04:30Z",
+    "updated_at": "2026-11-07T18:38:52Z",
+    "pushed_at": "2026-11-07T18:38:48Z",
     "created_at": "2026-11-02T03:31:50Z",
     "homepage": null,
     "license": "MIT License",
@@ -35,8 +67,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-11-07T08:22:04Z",
-    "pushed_at": "2026-11-07T08:22:00Z",
+    "updated_at": "2026-11-07T15:26:35Z",
+    "pushed_at": "2026-11-07T15:26:31Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -83,7 +115,7 @@
     "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaOS/main/docs/screenshots/niri.png",
     "stargazers_count": 8,
     "forks_count": 0,
-    "open_issues_count": 6,
+    "open_issues_count": 2,
     "topics": [
       "atomic-updates",
       "bootc",
@@ -242,38 +274,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 44,
-    "fork": false
-  },
-  {
-    "name": "kumaUI",
-    "description": "A minimalist desktop shell for Niri or Sway, used in KumaOS written in Rust and using the GPUI framework.",
-    "html_url": "https://github.com/Letdown2491/kumaUI",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell",
-      "Python",
-      "Dockerfile"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaUI/main/docs/kumaUI.png",
-    "stargazers_count": 4,
-    "forks_count": 0,
-    "open_issues_count": 13,
-    "topics": [
-      "desktop-shell",
-      "gpui",
-      "niri",
-      "rust",
-      "swaywm",
-      "wayland"
-    ],
-    "updated_at": "2026-10-24T05:33:49Z",
-    "pushed_at": "2026-10-24T05:33:46Z",
-    "created_at": "2026-10-02T07:11:51Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 4,
     "fork": false
   },
   {
