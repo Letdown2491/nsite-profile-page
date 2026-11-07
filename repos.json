@@ -1,5 +1,50 @@
 [
   {
+    "name": "satori-desktop",
+    "description": "A native Nostr desktop client build in Rust and GPUI.",
+    "html_url": "https://github.com/Letdown2491/satori-desktop",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-11-07T15:20:14Z",
+    "pushed_at": "2026-11-04T14:04:30Z",
+    "created_at": "2026-11-02T03:31:50Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-11-07T08:22:04Z",
+    "pushed_at": "2026-11-07T08:22:00Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "riddim",
     "description": "A Spotify client writte in Rust and GPUI",
     "html_url": "https://github.com/Letdown2491/riddim",
@@ -22,28 +67,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 0,
-    "fork": false
-  },
-  {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-11-07T01:38:14Z",
-    "pushed_at": "2026-11-07T01:38:10Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
     "fork": false
   },
   {
@@ -73,35 +96,12 @@
       "noctalia"
     ],
     "updated_at": "2026-11-07T01:14:12Z",
-    "pushed_at": "2026-11-07T05:44:09Z",
+    "pushed_at": "2026-11-07T14:22:15Z",
     "created_at": "2026-08-08T21:39:04Z",
     "homepage": "",
     "license": "MIT License",
     "archived": false,
     "watchers_count": 8,
-    "fork": false
-  },
-  {
-    "name": "satori-desktop",
-    "description": "A native Nostr desktop client build in Rust and GPUI.",
-    "html_url": "https://github.com/Letdown2491/satori-desktop",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell"
-    ],
-    "screenshot": null,
-    "stargazers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-11-04T14:04:35Z",
-    "pushed_at": "2026-11-04T14:04:30Z",
-    "created_at": "2026-11-02T03:31:50Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 0,
     "fork": false
   },
   {
