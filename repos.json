@@ -1,28 +1,5 @@
 [
   {
-    "name": "satori-desktop",
-    "description": "A native Nostr desktop client build in Rust and GPUI.",
-    "html_url": "https://github.com/Letdown2491/satori-desktop",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell"
-    ],
-    "screenshot": null,
-    "stargazers_count": 2,
-    "forks_count": 1,
-    "open_issues_count": 9,
-    "topics": [],
-    "updated_at": "2026-11-09T02:37:36Z",
-    "pushed_at": "2026-11-09T02:37:33Z",
-    "created_at": "2026-11-02T03:31:50Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 2,
-    "fork": false
-  },
-  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -35,13 +12,36 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-11-09T01:27:00Z",
-    "pushed_at": "2026-11-09T01:26:56Z",
+    "updated_at": "2026-11-09T09:11:08Z",
+    "pushed_at": "2026-11-09T09:11:04Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
     "archived": false,
     "watchers_count": 1,
+    "fork": false
+  },
+  {
+    "name": "satori-desktop",
+    "description": "A native Nostr desktop client build in Rust and GPUI.",
+    "html_url": "https://github.com/Letdown2491/satori-desktop",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell"
+    ],
+    "screenshot": null,
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "open_issues_count": 10,
+    "topics": [],
+    "updated_at": "2026-11-09T02:37:36Z",
+    "pushed_at": "2026-11-09T02:37:33Z",
+    "created_at": "2026-11-02T03:31:50Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 2,
     "fork": false
   },
   {
