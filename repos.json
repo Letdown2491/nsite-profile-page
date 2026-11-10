@@ -1,5 +1,37 @@
 [
   {
+    "name": "kumaUI",
+    "description": "A minimalist desktop shell for Niri or Sway, used in KumaOS written in Rust and using the GPUI framework.",
+    "html_url": "https://github.com/Letdown2491/kumaUI",
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell",
+      "Python",
+      "Dockerfile"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaUI/main/docs/kumaUI.png",
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "open_issues_count": 9,
+    "topics": [
+      "desktop-shell",
+      "gpui",
+      "niri",
+      "rust",
+      "swaywm",
+      "wayland"
+    ],
+    "updated_at": "2026-11-10T10:50:47Z",
+    "pushed_at": "2026-11-07T19:57:26Z",
+    "created_at": "2026-10-02T07:11:51Z",
+    "homepage": "",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 5,
+    "fork": false
+  },
+  {
     "name": "nsite-profile-page",
     "description": "A profile page in the style of Primal to post on nsite.",
     "html_url": "https://github.com/Letdown2491/nsite-profile-page",
@@ -12,8 +44,8 @@
     "forks_count": 0,
     "open_issues_count": 0,
     "topics": [],
-    "updated_at": "2026-11-09T20:26:26Z",
-    "pushed_at": "2026-11-09T20:26:21Z",
+    "updated_at": "2026-11-10T03:11:37Z",
+    "pushed_at": "2026-11-10T03:11:33Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -33,7 +65,7 @@
     "screenshot": null,
     "stargazers_count": 2,
     "forks_count": 1,
-    "open_issues_count": 10,
+    "open_issues_count": 12,
     "topics": [],
     "updated_at": "2026-11-09T02:37:36Z",
     "pushed_at": "2026-11-09T02:37:33Z",
@@ -102,38 +134,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 6,
-    "fork": false
-  },
-  {
-    "name": "kumaUI",
-    "description": "A minimalist desktop shell for Niri or Sway, used in KumaOS written in Rust and using the GPUI framework.",
-    "html_url": "https://github.com/Letdown2491/kumaUI",
-    "language": "Rust",
-    "languages": [
-      "Rust",
-      "Shell",
-      "Python",
-      "Dockerfile"
-    ],
-    "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaUI/main/docs/kumaUI.png",
-    "stargazers_count": 4,
-    "forks_count": 0,
-    "open_issues_count": 9,
-    "topics": [
-      "desktop-shell",
-      "gpui",
-      "niri",
-      "rust",
-      "swaywm",
-      "wayland"
-    ],
-    "updated_at": "2026-11-07T19:57:29Z",
-    "pushed_at": "2026-11-07T19:57:26Z",
-    "created_at": "2026-10-02T07:11:51Z",
-    "homepage": "",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 4,
     "fork": false
   },
   {
