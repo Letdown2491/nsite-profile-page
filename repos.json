@@ -1,5 +1,60 @@
 [
   {
+    "name": "trustedrelays",
+    "description": "Reference implementation for Trusted Relay Assertions, trust scores for Nostr relays",
+    "html_url": "https://github.com/Letdown2491/trustedrelays",
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "Dockerfile"
+    ],
+    "screenshot": null,
+    "stargazers_count": 8,
+    "forks_count": 1,
+    "open_issues_count": 0,
+    "topics": [
+      "monitoring-tool",
+      "nip-11",
+      "nip-66",
+      "nip-85",
+      "nostr",
+      "relays",
+      "weboftrust",
+      "wot"
+    ],
+    "updated_at": "2026-11-11T02:24:44Z",
+    "pushed_at": "2026-06-29T03:53:31Z",
+    "created_at": "2026-01-17T03:36:24Z",
+    "homepage": "https://trustedrelays.xyz",
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 8,
+    "fork": false
+  },
+  {
+    "name": "nsite-profile-page",
+    "description": "A profile page in the style of Primal to post on nsite.",
+    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "screenshot": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "topics": [],
+    "updated_at": "2026-11-11T02:01:18Z",
+    "pushed_at": "2026-11-11T01:01:14Z",
+    "created_at": "2025-10-25T08:45:02Z",
+    "homepage": null,
+    "license": "MIT License",
+    "archived": false,
+    "watchers_count": 1,
+    "fork": false
+  },
+  {
     "name": "kumaOS",
     "description": "A declarative, atomic, and immutable distro based on Fedora bootc using Niri and a custom shell, kumaUI, by default.",
     "html_url": "https://github.com/Letdown2491/kumaOS",
@@ -32,28 +87,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 8,
-    "fork": false
-  },
-  {
-    "name": "nsite-profile-page",
-    "description": "A profile page in the style of Primal to post on nsite.",
-    "html_url": "https://github.com/Letdown2491/nsite-profile-page",
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "screenshot": null,
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "topics": [],
-    "updated_at": "2026-11-10T21:58:32Z",
-    "pushed_at": "2026-11-10T20:14:25Z",
-    "created_at": "2025-10-25T08:45:02Z",
-    "homepage": null,
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 1,
     "fork": false
   },
   {
@@ -479,39 +512,6 @@
     "license": "MIT License",
     "archived": false,
     "watchers_count": 17,
-    "fork": false
-  },
-  {
-    "name": "trustedrelays",
-    "description": "Reference implementation for Trusted Relay Assertions, trust scores for Nostr relays",
-    "html_url": "https://github.com/Letdown2491/trustedrelays",
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "CSS",
-      "Dockerfile"
-    ],
-    "screenshot": null,
-    "stargazers_count": 7,
-    "forks_count": 1,
-    "open_issues_count": 0,
-    "topics": [
-      "monitoring-tool",
-      "nip-11",
-      "nip-66",
-      "nip-85",
-      "nostr",
-      "relays",
-      "weboftrust",
-      "wot"
-    ],
-    "updated_at": "2026-09-30T09:18:01Z",
-    "pushed_at": "2026-06-29T03:53:31Z",
-    "created_at": "2026-01-17T03:36:24Z",
-    "homepage": "https://trustedrelays.xyz",
-    "license": "MIT License",
-    "archived": false,
-    "watchers_count": 7,
     "fork": false
   },
   {
