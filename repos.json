@@ -13,7 +13,7 @@
     "open_issues_count": 0,
     "topics": [],
     "updated_at": "2026-11-12T15:41:39Z",
-    "pushed_at": "2026-11-14T23:39:03Z",
+    "pushed_at": "2026-11-15T04:57:33Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
@@ -58,7 +58,7 @@
     "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaOS/main/docs/screenshots/niri.png",
     "stargazers_count": 8,
     "forks_count": 0,
-    "open_issues_count": 1,
+    "open_issues_count": 2,
     "topics": [
       "atomic-updates",
       "bootc",
@@ -71,7 +71,7 @@
       "noctalia"
     ],
     "updated_at": "2026-11-12T13:51:24Z",
-    "pushed_at": "2026-11-14T08:43:29Z",
+    "pushed_at": "2026-11-15T10:32:58Z",
     "created_at": "2026-08-08T21:39:04Z",
     "homepage": "",
     "license": "MIT License",
