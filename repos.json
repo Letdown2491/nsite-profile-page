@@ -11,9 +11,9 @@
       "Python"
     ],
     "screenshot": "https://raw.githubusercontent.com/letdown2491/kumaOS/main/docs/screenshots/niri.png",
-    "stargazers_count": 9,
+    "stargazers_count": 10,
     "forks_count": 1,
-    "open_issues_count": 7,
+    "open_issues_count": 4,
     "topics": [
       "atomic-updates",
       "bootc",
@@ -25,13 +25,13 @@
       "niri",
       "noctalia"
     ],
-    "updated_at": "2026-11-21T06:49:23Z",
-    "pushed_at": "2026-11-22T02:13:28Z",
+    "updated_at": "2026-11-22T09:01:49Z",
+    "pushed_at": "2026-11-22T10:33:00Z",
     "created_at": "2026-08-08T21:39:04Z",
     "homepage": "",
     "license": "MIT License",
     "archived": false,
-    "watchers_count": 9,
+    "watchers_count": 10,
     "fork": false
   },
   {
@@ -48,7 +48,7 @@
     "screenshot": "https://raw.githubusercontent.com/letdown2491/orchard/main/docs/orchard-main.png",
     "stargazers_count": 7,
     "forks_count": 1,
-    "open_issues_count": 5,
+    "open_issues_count": 6,
     "topics": [],
     "updated_at": "2026-11-21T04:48:09Z",
     "pushed_at": "2026-11-21T02:38:13Z",
@@ -133,7 +133,7 @@
     "open_issues_count": 0,
     "topics": [],
     "updated_at": "2026-11-12T15:41:39Z",
-    "pushed_at": "2026-11-21T22:02:40Z",
+    "pushed_at": "2026-11-22T02:50:09Z",
     "created_at": "2025-10-25T08:45:02Z",
     "homepage": null,
     "license": "MIT License",
